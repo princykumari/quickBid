@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "toQusEdit"
+	},
+	"PageToOpen": "/quickbid/Pages/qusEdit.page",
+	"ModalPage": true,
+	"ModalPageFullscreen": false
+}

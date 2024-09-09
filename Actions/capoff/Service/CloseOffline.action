@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/quickbid/Services/capoff.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/quickbid/Actions/capoff/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/capoff/Service/CloseOfflineFailureMessage.action"
+}

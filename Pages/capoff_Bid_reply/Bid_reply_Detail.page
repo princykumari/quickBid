@@ -1,0 +1,72 @@
+{
+	"Caption": "Bid_reply Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Bid_reply",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/Bid_reply/NavToBid_reply_Edit.action",
+				"Position": "Right",
+				"SystemItem": "Edit"
+			},
+			{
+				"OnPress": "/quickbid/Rules/capoff/Bid_reply/Bid_reply_DeleteConfirmation.js",
+				"Position": "Right",
+				"SystemItem": "Trash"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{item_name}",
+						"Subhead": "{doc_id}",
+						"BodyText": "",
+						"Footnote": "",
+						"Description": "{phone}",
+						"StatusText": "",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": ""
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "doc_id",
+							"Value": "{doc_id}"
+						},
+						{
+							"KeyName": "item_name",
+							"Value": "{item_name}"
+						},
+						{
+							"KeyName": "phone",
+							"Value": "{phone}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Bid_reply_Detail",
+	"PrefersLargeCaption": true
+}

@@ -1,0 +1,52 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.Tabs",
+			"_Name": "Awarded Bids",
+			"Items": [
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "/quickbid/Rules/countRule.js",
+					"PageToOpen": "/quickbid/Pages/capoff_Supplier_table/Supplier_table_List.page",
+					"_Name": "TabItem0"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "/quickbid/Rules/count.js",
+					"PageToOpen": "/quickbid/Pages/capoff_Supplier_table/Approved_List.page",
+					"_Name": "TabItem1"
+				},
+				{
+					"_Type": "Control.Type.TabItem",
+					"Caption": "/quickbid/Rules/awardedCountRule.js",
+					"PageToOpen": "/quickbid/Pages/capoff_Supplier_table/Awarded List.page",
+					"_Name": "TabItem2"
+				}
+			],
+			"Position": "Top",
+			"TabStripType": "Normal",
+			"SwipeEnabled": true
+		}
+	],
+	"PullDown": {
+		"OnPulledDown": "/quickbid/Rules/count.js"
+	},
+	"_Type": "Page",
+	"_Name": "TabsForBidsSummary",
+	"Caption": "Bids Summary",
+	"OnReturning": "/quickbid/Actions/capoff/Service/UploadOffline.action",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "Item",
+				"Icon": "sap-icon://customer",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/quickbid/Actions/Application/UserMenuPopover.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

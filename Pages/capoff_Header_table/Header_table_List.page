@@ -1,0 +1,74 @@
+{
+	"Caption": "Header_table",
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/Header_table/NavToHeader_table_Create.action",
+				"Position": "Right",
+				"SystemItem": "Add"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Header": {
+						"UseTopPadding": false,
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{eventTypeName}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"OnPress": "/quickbid/Actions/capoff/Header_table/NavToHeader_table_Detail.action",
+						"StatusImage": "",
+						"Title": "{title}",
+						"Footnote": "{status}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{date_created}",
+						"Subhead": "{doc_id}",
+						"SubstatusText": ""
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Search": {
+						"Enabled": true,
+						"Placeholder": "Item Search",
+						"BarcodeScanner": true,
+						"Delay": 500,
+						"MinimumCharacterThreshold": 3
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": true,
+						"LoadingIndicatorText": "Loading more items, please wait..."
+					},
+					"Target": {
+						"EntitySet": "Header_table",
+						"Service": "/quickbid/Services/capoff.service",
+						"QueryOptions": ""
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"LoadingIndicator": {
+				"Enabled": true,
+				"Text": "Loading, please wait..."
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Header_table_List",
+	"PrefersLargeCaption": true
+}

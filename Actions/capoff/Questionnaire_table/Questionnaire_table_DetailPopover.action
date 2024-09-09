@@ -1,0 +1,12 @@
+{
+    "PopoverItems": [{
+            "Title": "Add Questionnaire_reply_table",
+            "OnPress": "/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_CreateQuestionnaire_reply_table.action"
+        },
+        {
+            "Title": "Delete",
+            "OnPress": "/quickbid/Rules/capoff/Questionnaire_table/Questionnaire_table_DeleteConfirmation.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}

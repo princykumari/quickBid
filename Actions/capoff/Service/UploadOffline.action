@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/quickbid/Actions/capoff/Service/SyncFailureMessage.action",
+	"OnSuccess": "/quickbid/Actions/capoff/Service/DownloadOffline.action",
+	"ShowActivityIndicator": false,
+	"Service": "/quickbid/Services/capoff.service"
+}

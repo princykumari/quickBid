@@ -1,0 +1,22 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Attachments_table",
+        "Service": "/quickbid/Services/capoff.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "doc_id": "#Control:doc_id/#Value",
+        "invitationId": "#Control:invitationId/#SelectedValue",
+        "mediaType": "#Control:mediaType/#Value",
+        "fileName": "#Control:fileName/#Value",
+        "size": "#Control:size/#Value",
+        "url": "#Control:url/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action"
+}

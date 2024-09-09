@@ -1,0 +1,91 @@
+{
+	"Caption": "Update Questionnaire_reply_table Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Questionnaire_reply_table",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "Left",
+				"SystemItem": "Cancel",
+				"OnPress": "/quickbid/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"Position": "Right",
+				"SystemItem": "Save",
+				"OnPress": "/quickbid/Actions/capoff/Questionnaire_reply_table/Questionnaire_reply_table_UpdateEntity.action"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Visible": true,
+					"Controls": [
+						{
+							"Caption": "doc_id",
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSelectedSectionEnabled": true,
+							"PickerItems": {
+								"DisplayValue": "{doc_id}",
+								"ReturnValue": "{doc_id}",
+								"Target": {
+									"EntitySet": "Supplier_table",
+									"Service": "/quickbid/Services/capoff.service"
+								}
+							},
+							"Value": "{doc_id}",
+							"_Name": "doc_id",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"IsEditable": false
+						},
+						{
+							"Caption": "questionnaire_id",
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"IsPickerDismissedOnSelection": true,
+							"IsSelectedSectionEnabled": true,
+							"PickerItems": {
+								"DisplayValue": "{questionnaire_id}",
+								"ReturnValue": "{questionnaire_id}",
+								"Target": {
+									"EntitySet": "Questionnaire_table",
+									"Service": "/quickbid/Services/capoff.service"
+								}
+							},
+							"Value": "{questionnaire_id}",
+							"_Name": "questionnaire_id",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"IsEditable": false
+						},
+						{
+							"Caption": "invitationId",
+							"_Name": "invitationId",
+							"Value": "{invitationId}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"IsEditable": false
+						},
+						{
+							"Caption": "user_reply",
+							"_Name": "user_reply",
+							"Value": "{user_reply}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					]
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Questionnaire_reply_table_Edit",
+	"PrefersLargeCaption": true
+}

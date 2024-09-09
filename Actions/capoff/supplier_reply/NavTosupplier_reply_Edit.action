@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/quickbid/Pages/capoff_supplier_reply/supplier_reply_Edit.page",
+    "_Type": "Action.Type.Navigation"
+}

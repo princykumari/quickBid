@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/quickbid/Pages/capoff_Questionnaire_reply_table/Questionnaire_reply_table_Edit.page",
+    "_Type": "Action.Type.Navigation"
+}

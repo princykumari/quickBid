@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/quickbid/Pages/capoff_Header_table/Header_table_CreateItem_table.page",
+    "_Type": "Action.Type.Navigation"
+}

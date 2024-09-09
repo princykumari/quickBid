@@ -1,0 +1,33 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/quickbid/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/quickbid/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+        "OriginalRepliedMessageSender": "#Control:OriginalRepliedMessageSender/#Value",
+        "SmsMessageSid": "#Control:SmsMessageSid/#Value",
+        "NumMedia": "#Control:NumMedia/#Value",
+        "ProfileName": "#Control:ProfileName/#Value",
+        "SmsSid": "#Control:SmsSid/#Value",
+        "WaId": "#Control:WaId/#Value",
+        "SmsStatus": "#Control:SmsStatus/#Value",
+        "Body": "#Control:Body/#Value",
+        "ButtonText": "#Control:ButtonText/#Value",
+        "To": "#Control:To/#Value",
+        "ButtonPayload": "#Control:ButtonPayload/#Value",
+        "NumSegments": "#Control:NumSegments/#Value",
+        "ReferralNumMedia": "#Control:ReferralNumMedia/#Value",
+        "MessageSid": "#Control:MessageSid/#Value",
+        "AccountSid": "#Control:AccountSid/#Value",
+        "OriginalRepliedMessageSid": "#Control:OriginalRepliedMessageSid/#Value",
+        "From": "#Control:From/#Value",
+        "ApiVersion": "#Control:ApiVersion/#Value"
+    },
+    "Target": {
+        "EntitySet": "supplier_reply",
+        "Service": "/quickbid/Services/capoff.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}

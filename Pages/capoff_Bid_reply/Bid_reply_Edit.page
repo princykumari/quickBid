@@ -1,0 +1,58 @@
+{
+	"Caption": "Update Bid_reply Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Bid_reply",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "Left",
+				"SystemItem": "Cancel",
+				"OnPress": "/quickbid/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"Position": "Right",
+				"SystemItem": "Save",
+				"OnPress": "/quickbid/Actions/capoff/Bid_reply/Bid_reply_UpdateEntity.action"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Visible": true,
+					"Controls": [
+						{
+							"Caption": "doc_id",
+							"_Name": "doc_id",
+							"Value": "{doc_id}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "item_name",
+							"_Name": "item_name",
+							"Value": "{item_name}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "phone",
+							"_Name": "phone",
+							"Value": "{phone}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					]
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Bid_reply_Edit",
+	"PrefersLargeCaption": true
+}

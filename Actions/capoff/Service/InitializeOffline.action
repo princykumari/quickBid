@@ -1,0 +1,52 @@
+{
+	"_Type": "Action.Type.ODataService.Initialize",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/quickbid/Actions/capoff/Service/SyncStartedMessage.action",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"Service": "/quickbid/Services/capoff.service",
+	"DefiningRequests": [
+		{
+			"Name": "Attachments_table",
+			"Query": "Attachments_table"
+		},
+		{
+			"Name": "Bid_reply",
+			"Query": "Bid_reply"
+		},
+		{
+			"Name": "Dropdown",
+			"Query": "Dropdown"
+		},
+		{
+			"Name": "Header_table",
+			"Query": "Header_table"
+		},
+		{
+			"Name": "Item_table",
+			"Query": "Item_table"
+		},
+		{
+			"Name": "Questionnaire_reply_table",
+			"Query": "Questionnaire_reply_table"
+		},
+		{
+			"Name": "Questionnaire_table",
+			"Query": "Questionnaire_table"
+		},
+		{
+			"Name": "Supplier_bid_table",
+			"Query": "Supplier_bid_table"
+		},
+		{
+			"Name": "supplier_reply",
+			"Query": "supplier_reply"
+		},
+		{
+			"Name": "Supplier_table",
+			"Query": "Supplier_table"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Bid_reply",
+        "Service": "/quickbid/Services/capoff.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "doc_id": "#Control:doc_id/#Value",
+        "item_name": "#Control:item_name/#Value",
+        "phone": "#Control:phone/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action"
+}

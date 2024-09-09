@@ -1,0 +1,17 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/quickbid/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/quickbid/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+        "questionnaire_id": "#Control:questionnaire_id/#Value",
+        "dropdown_value": "#Control:dropdown_value/#Value"
+    },
+    "Target": {
+        "EntitySet": "Dropdown",
+        "Service": "/quickbid/Services/capoff.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}

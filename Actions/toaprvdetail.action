@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "toaprvdetail"
+	},
+	"PageToOpen": "/quickbid/Pages/capoff_Supplier_table/Approved Bids.page"
+}

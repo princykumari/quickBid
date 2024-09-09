@@ -1,0 +1,120 @@
+{
+	"Caption": "Supplier_bid_table Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Supplier_bid_table",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_Edit.action",
+				"Position": "Right",
+				"SystemItem": "Edit"
+			},
+			{
+				"OnPress": "/quickbid/Rules/capoff/Supplier_bid_table/Supplier_bid_table_DeleteConfirmation.js",
+				"Position": "Right",
+				"SystemItem": "Trash"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{title}",
+						"Subhead": "{doc_id}",
+						"BodyText": "",
+						"Footnote": "{item_id}",
+						"Description": "{invitationId}",
+						"StatusText": "{eventTypeName}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{leadBid}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "doc_id",
+							"Value": "{doc_id}"
+						},
+						{
+							"KeyName": "invitationId",
+							"Value": "{invitationId}"
+						},
+						{
+							"KeyName": "item_id",
+							"Value": "{item_id}"
+						},
+						{
+							"KeyName": "eventTypeName",
+							"Value": "{eventTypeName}"
+						},
+						{
+							"KeyName": "leadBid",
+							"Value": "{leadBid}"
+						},
+						{
+							"KeyName": "title",
+							"Value": "{title}"
+						},
+						{
+							"KeyName": "item_name",
+							"Value": "{item_name}"
+						},
+						{
+							"KeyName": "supp_quot_price",
+							"Value": "{supp_quot_price}"
+						},
+						{
+							"KeyName": "supp_quot_quantity",
+							"Value": "{supp_quot_quantity}"
+						},
+						{
+							"KeyName": "price",
+							"Value": "{price}"
+						},
+						{
+							"KeyName": "quantity",
+							"Value": "{quantity}"
+						},
+						{
+							"KeyName": "status",
+							"Value": "{status}"
+						},
+						{
+							"KeyName": "ariba_status",
+							"Value": "{ariba_status}"
+						},
+						{
+							"KeyName": "whatsapp_status",
+							"Value": "{whatsapp_status}"
+						},
+						{
+							"KeyName": "award_price",
+							"Value": "{award_price}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Supplier_bid_table_Detail",
+	"PrefersLargeCaption": true
+}

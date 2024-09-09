@@ -1,0 +1,76 @@
+{
+	"Caption": "Questionnaire_reply_table Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Questionnaire_reply_table",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_Edit.action",
+				"Position": "Right",
+				"SystemItem": "Edit"
+			},
+			{
+				"OnPress": "/quickbid/Rules/capoff/Questionnaire_reply_table/Questionnaire_reply_table_DeleteConfirmation.js",
+				"Position": "Right",
+				"SystemItem": "Trash"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{doc_id}",
+						"Subhead": "{questionnaire_id}",
+						"BodyText": "",
+						"Footnote": "{user_reply}",
+						"Description": "{invitationId}",
+						"StatusText": "",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": ""
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "doc_id",
+							"Value": "{doc_id}"
+						},
+						{
+							"KeyName": "questionnaire_id",
+							"Value": "{questionnaire_id}"
+						},
+						{
+							"KeyName": "invitationId",
+							"Value": "{invitationId}"
+						},
+						{
+							"KeyName": "user_reply",
+							"Value": "{user_reply}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Questionnaire_reply_table_Detail",
+	"PrefersLargeCaption": true
+}

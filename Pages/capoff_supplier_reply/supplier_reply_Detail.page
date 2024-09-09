@@ -1,0 +1,132 @@
+{
+	"Caption": "supplier_reply Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "supplier_reply",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/supplier_reply/NavTosupplier_reply_Edit.action",
+				"Position": "Right",
+				"SystemItem": "Edit"
+			},
+			{
+				"OnPress": "/quickbid/Rules/capoff/supplier_reply/supplier_reply_DeleteConfirmation.js",
+				"Position": "Right",
+				"SystemItem": "Trash"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{ProfileName}",
+						"Subhead": "{OriginalRepliedMessageSender}",
+						"BodyText": "",
+						"Footnote": "{NumMedia}",
+						"Description": "{SmsMessageSid}",
+						"StatusText": "{SmsSid}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{WaId}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "OriginalRepliedMessageSender",
+							"Value": "{OriginalRepliedMessageSender}"
+						},
+						{
+							"KeyName": "SmsMessageSid",
+							"Value": "{SmsMessageSid}"
+						},
+						{
+							"KeyName": "NumMedia",
+							"Value": "{NumMedia}"
+						},
+						{
+							"KeyName": "ProfileName",
+							"Value": "{ProfileName}"
+						},
+						{
+							"KeyName": "SmsSid",
+							"Value": "{SmsSid}"
+						},
+						{
+							"KeyName": "WaId",
+							"Value": "{WaId}"
+						},
+						{
+							"KeyName": "SmsStatus",
+							"Value": "{SmsStatus}"
+						},
+						{
+							"KeyName": "Body",
+							"Value": "{Body}"
+						},
+						{
+							"KeyName": "ButtonText",
+							"Value": "{ButtonText}"
+						},
+						{
+							"KeyName": "To",
+							"Value": "{To}"
+						},
+						{
+							"KeyName": "ButtonPayload",
+							"Value": "{ButtonPayload}"
+						},
+						{
+							"KeyName": "NumSegments",
+							"Value": "{NumSegments}"
+						},
+						{
+							"KeyName": "ReferralNumMedia",
+							"Value": "{ReferralNumMedia}"
+						},
+						{
+							"KeyName": "MessageSid",
+							"Value": "{MessageSid}"
+						},
+						{
+							"KeyName": "AccountSid",
+							"Value": "{AccountSid}"
+						},
+						{
+							"KeyName": "OriginalRepliedMessageSid",
+							"Value": "{OriginalRepliedMessageSid}"
+						},
+						{
+							"KeyName": "From",
+							"Value": "{From}"
+						},
+						{
+							"KeyName": "ApiVersion",
+							"Value": "{ApiVersion}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "supplier_reply_Detail",
+	"PrefersLargeCaption": true
+}

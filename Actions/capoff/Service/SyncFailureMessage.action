@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.BannerMessage",
+	"ShowActivityIndicator": false,
+	"Message": "/quickbid/Rules/synch.js",
+	"Duration": 6,
+	"Animated": true
+}

@@ -1,0 +1,22 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Item_table",
+        "Service": "/quickbid/Services/capoff.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "doc_id": "#Control:doc_id/#SelectedValue",
+        "itemid": "#Control:itemid/#Value",
+        "item_name": "#Control:item_name/#Value",
+        "improvise_amount": "#Control:improvise_amount/#Value",
+        "price": "#Control:price/#Value",
+        "quantity": "#Control:quantity/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action"
+}

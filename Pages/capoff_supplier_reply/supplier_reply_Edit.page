@@ -1,0 +1,149 @@
+{
+	"Caption": "Update supplier_reply Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "supplier_reply",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "Left",
+				"SystemItem": "Cancel",
+				"OnPress": "/quickbid/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"Position": "Right",
+				"SystemItem": "Save",
+				"OnPress": "/quickbid/Actions/capoff/supplier_reply/supplier_reply_UpdateEntity.action"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Visible": true,
+					"Controls": [
+						{
+							"Caption": "OriginalRepliedMessageSender",
+							"_Name": "OriginalRepliedMessageSender",
+							"Value": "{OriginalRepliedMessageSender}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "SmsMessageSid",
+							"_Name": "SmsMessageSid",
+							"Value": "{SmsMessageSid}",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"IsEditable": false
+						},
+						{
+							"Caption": "NumMedia",
+							"_Name": "NumMedia",
+							"Value": "{NumMedia}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "ProfileName",
+							"_Name": "ProfileName",
+							"Value": "{ProfileName}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "SmsSid",
+							"_Name": "SmsSid",
+							"Value": "{SmsSid}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "WaId",
+							"_Name": "WaId",
+							"Value": "{WaId}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "SmsStatus",
+							"_Name": "SmsStatus",
+							"Value": "{SmsStatus}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Body",
+							"_Name": "Body",
+							"Value": "{Body}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "ButtonText",
+							"_Name": "ButtonText",
+							"Value": "{ButtonText}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "To",
+							"_Name": "To",
+							"Value": "{To}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "ButtonPayload",
+							"_Name": "ButtonPayload",
+							"Value": "{ButtonPayload}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "NumSegments",
+							"_Name": "NumSegments",
+							"Value": "{NumSegments}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "ReferralNumMedia",
+							"_Name": "ReferralNumMedia",
+							"Value": "{ReferralNumMedia}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "MessageSid",
+							"_Name": "MessageSid",
+							"Value": "{MessageSid}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "AccountSid",
+							"_Name": "AccountSid",
+							"Value": "{AccountSid}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "OriginalRepliedMessageSid",
+							"_Name": "OriginalRepliedMessageSid",
+							"Value": "{OriginalRepliedMessageSid}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "From",
+							"_Name": "From",
+							"Value": "{From}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "ApiVersion",
+							"_Name": "ApiVersion",
+							"Value": "{ApiVersion}",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					]
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "supplier_reply_Edit",
+	"PrefersLargeCaption": true
+}

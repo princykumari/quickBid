@@ -1,0 +1,12 @@
+{
+    "PopoverItems": [{
+            "Title": "Open Document",
+            "OnPress": "/quickbid/Actions/capoff/Attachments_table/Attachments_table_OpenDocument.action"
+        },
+        {
+            "Title": "Delete",
+            "OnPress": "/quickbid/Rules/capoff/Attachments_table/Attachments_table_DeleteConfirmation.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}

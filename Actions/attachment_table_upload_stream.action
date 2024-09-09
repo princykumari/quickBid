@@ -1,0 +1,17 @@
+{
+	"_Type": "Action.Type.ODataService.UploadStream",
+	"ActionResult": {
+		"_Name": "uploadstream"
+	},
+	"OnFailure": "/quickbid/Actions/UploadStreamFailureMessage.action",
+	"OnSuccess": "/quickbid/Actions/UploadStreamSuccessMessage.action",
+	"ShowActivityIndicator": true,
+	"Target": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Attachments_table",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties": {
+		"content": "#Control:content/#Value"
+	}
+}

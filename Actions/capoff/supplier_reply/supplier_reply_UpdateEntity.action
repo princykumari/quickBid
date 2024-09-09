@@ -1,0 +1,34 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "supplier_reply",
+        "Service": "/quickbid/Services/capoff.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "OriginalRepliedMessageSender": "#Control:OriginalRepliedMessageSender/#Value",
+        "SmsMessageSid": "#Control:SmsMessageSid/#Value",
+        "NumMedia": "#Control:NumMedia/#Value",
+        "ProfileName": "#Control:ProfileName/#Value",
+        "SmsSid": "#Control:SmsSid/#Value",
+        "WaId": "#Control:WaId/#Value",
+        "SmsStatus": "#Control:SmsStatus/#Value",
+        "Body": "#Control:Body/#Value",
+        "ButtonText": "#Control:ButtonText/#Value",
+        "To": "#Control:To/#Value",
+        "ButtonPayload": "#Control:ButtonPayload/#Value",
+        "NumSegments": "#Control:NumSegments/#Value",
+        "ReferralNumMedia": "#Control:ReferralNumMedia/#Value",
+        "MessageSid": "#Control:MessageSid/#Value",
+        "AccountSid": "#Control:AccountSid/#Value",
+        "OriginalRepliedMessageSid": "#Control:OriginalRepliedMessageSid/#Value",
+        "From": "#Control:From/#Value",
+        "ApiVersion": "#Control:ApiVersion/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action"
+}

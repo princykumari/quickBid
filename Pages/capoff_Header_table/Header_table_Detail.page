@@ -1,0 +1,225 @@
+{
+	"Caption": "Header_table Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Header_table",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/Header_table/NavToHeader_table_Edit.action",
+				"Position": "Right",
+				"SystemItem": "Edit"
+			},
+			{
+				"OnPress": "/quickbid/Actions/capoff/Header_table/Header_table_DetailPopover.action",
+				"Position": "Right",
+				"Caption": "More"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{title}",
+						"Subhead": "{doc_id}",
+						"BodyText": "",
+						"Footnote": "{status}",
+						"Description": "{eventTypeName}",
+						"StatusText": "{date_created}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": ""
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "doc_id",
+							"Value": "{doc_id}"
+						},
+						{
+							"KeyName": "eventTypeName",
+							"Value": "{eventTypeName}"
+						},
+						{
+							"KeyName": "title",
+							"Value": "{title}"
+						},
+						{
+							"KeyName": "status",
+							"Value": "{status}"
+						},
+						{
+							"KeyName": "date_created",
+							"Value": "{date_created}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"Header": {
+						"Caption": "header_item_rel",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{itemid}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{item_name}",
+						"Footnote": "{improvise_amount}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{price}",
+						"Subhead": "{doc_id}",
+						"SubstatusText": "{quantity}",
+						"OnPress": "/quickbid/Actions/capoff/Item_table/NavToItem_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/header_item_rel",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "header_supplier_rel",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{title}",
+						"Footnote": "{main_invitationId}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{smvendor_id}",
+						"Subhead": "{doc_id}",
+						"SubstatusText": "{phone_main}",
+						"OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/header_supplier_rel",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "header_supplier_bid_rel",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{title}",
+						"Footnote": "{item_id}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{eventTypeName}",
+						"Subhead": "{doc_id}",
+						"SubstatusText": "{leadBid}",
+						"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/header_supplier_bid_rel",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "header_questionnaire_rel",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{doc_id}",
+						"Footnote": "{description}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{type}",
+						"Subhead": "{questionnaire_id}",
+						"SubstatusText": "",
+						"OnPress": "/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/header_questionnaire_rel",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"DataSubscriptions": [
+				"Item_table",
+				"Supplier_table",
+				"Supplier_bid_table",
+				"Questionnaire_table"
+			],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Header_table_Detail",
+	"PrefersLargeCaption": true
+}

@@ -1,0 +1,13 @@
+{
+    "Target": {
+        "EntitySet": "Questionnaire_reply_table",
+        "Service": "/quickbid/Services/capoff.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "OnSuccess": "/quickbid/Actions/DeleteEntitySuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/DeleteEntityFailureMessage.action",
+    "ActionResult": {
+        "_Name": "delete"
+    },
+    "_Type": "Action.Type.ODataService.DeleteEntity"
+}

@@ -1,0 +1,8 @@
+{
+	"_Type": "Action.Type.OpenDocument",
+	"ActionResult": {
+		"_Name": "OpenDocument"
+	},
+	"Path": "/quickbid/Services/capoff.service/{@odata.readLink}/content",
+	"MimeType": "/quickbid/Rules/openDocRule.js"
+}

@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/quickbid/Pages/capoff_Attachments_table/Attachments_table_Edit.page",
+    "_Type": "Action.Type.Navigation"
+}

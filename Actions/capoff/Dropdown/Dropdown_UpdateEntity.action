@@ -1,0 +1,18 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Dropdown",
+        "Service": "/quickbid/Services/capoff.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "questionnaire_id": "#Control:questionnaire_id/#Value",
+        "dropdown_value": "#Control:dropdown_value/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action"
+}

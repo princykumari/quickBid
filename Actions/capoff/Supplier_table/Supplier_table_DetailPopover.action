@@ -1,0 +1,24 @@
+{
+    "PopoverItems": [{
+            "Title": "Add Supplier_bid_table",
+            "OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_CreateSupplier_bid_table.action"
+        },
+        {
+            "Title": "Add Attachments_table",
+            "OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_CreateAttachments_table.action"
+        },
+        {
+            "Title": "Add Questionnaire_table",
+            "OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_CreateQuestionnaire_table.action"
+        },
+        {
+            "Title": "Add Questionnaire_reply_table",
+            "OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_CreateQuestionnaire_reply_table.action"
+        },
+        {
+            "Title": "Delete",
+            "OnPress": "/quickbid/Rules/capoff/Supplier_table/Supplier_table_DeleteConfirmation.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}

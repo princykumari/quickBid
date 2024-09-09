@@ -1,0 +1,13 @@
+{
+	"_Type": "Action.Type.ODataService.DeleteEntity",
+	"ActionResult": {
+		"_Name": "delete"
+	},
+	"OnFailure": "/quickbid/Actions/DeleteEntityFailureMessage.action",
+	"OnSuccess": "/quickbid/Actions/DeleteEntitySuccessMessage.action",
+	"Target": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Attachments_table",
+		"ReadLink": "{@odata.readLink}"
+	}
+}

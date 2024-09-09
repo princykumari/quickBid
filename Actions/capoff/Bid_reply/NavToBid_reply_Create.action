@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/quickbid/Pages/capoff_Bid_reply/Bid_reply_Create.page",
+    "_Type": "Action.Type.Navigation"
+}

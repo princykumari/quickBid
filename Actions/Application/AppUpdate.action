@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/quickbid/Rules/Application/AppUpdateFailure.js",
+    "OnSuccess": "/quickbid/Rules/Application/AppUpdateSuccess.js"
+}

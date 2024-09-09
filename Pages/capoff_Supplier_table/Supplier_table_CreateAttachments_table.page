@@ -1,0 +1,96 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/CloseModalPage_Cancel.action",
+				"Position": "Left",
+				"SystemItem": "Cancel"
+			},
+			{
+				"OnPress": "/quickbid/Actions/capoff/Supplier_table/Supplier_table_CreateAttachments_table.action",
+				"Position": "Right",
+				"SystemItem": "Save"
+			}
+		]
+	},
+	"Caption": "Create Attachments_table",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Visible": true,
+					"Controls": [
+						{
+							"Caption": "doc_id",
+							"_Name": "doc_id",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "invitationId",
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": true,
+							"IsEditable": false,
+							"IsPickerDismissedOnSelection": true,
+							"IsSelectedSectionEnabled": true,
+							"PickerItems": {
+								"DisplayValue": "{invitationId}",
+								"ReturnValue": "{invitationId}",
+								"Target": {
+									"EntitySet": "Supplier_table",
+									"Service": "/quickbid/Services/capoff.service"
+								}
+							},
+							"_Name": "invitationId",
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"Value": "{invitationId}"
+						},
+						{
+							"AttachmentTitle": "content",
+							"AttachmentAddTitle": "Browse",
+							"AttachmentActionType": [
+								"AddPhoto",
+								"TakePhoto",
+								"SelectFile"
+							],
+							"AllowedFileTypes": [
+								"jpg",
+								"png",
+								"gif"
+							],
+							"_Name": "content",
+							"_Type": "Control.Type.FormCell.Attachment"
+						},
+						{
+							"Caption": "mediaType",
+							"_Name": "mediaType",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "fileName",
+							"_Name": "fileName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "size",
+							"KeyboardType": "Number",
+							"_Name": "size",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "url",
+							"_Name": "url",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					]
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Supplier_table_CreateAttachments_table",
+	"PrefersLargeCaption": true
+}

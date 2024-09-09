@@ -1,0 +1,132 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable",
+			"Sections": [
+				{
+					"Header": {
+						"_Name": "SectionHeader_capoff",
+						"AccessoryType": "None",
+						"UseTopPadding": true,
+						"Caption": "capoff",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"Buttons": [
+						{
+							"OnPress": "/quickbid/Actions/capoff/Attachments_table/NavToAttachments_table_List.action",
+							"Alignment": "Center",
+							"Title": "Attachments_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Bid_reply/NavToBid_reply_List.action",
+							"Alignment": "Center",
+							"Title": "Bid_reply",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Dropdown/NavToDropdown_List.action",
+							"Alignment": "Center",
+							"Title": "Dropdown",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Header_table/NavToHeader_table_List.action",
+							"Alignment": "Center",
+							"Title": "Header_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Item_table/NavToItem_table_List.action",
+							"Alignment": "Center",
+							"Title": "Item_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_List.action",
+							"Alignment": "Center",
+							"Title": "Questionnaire_reply_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_List.action",
+							"Alignment": "Center",
+							"Title": "Questionnaire_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_List.action",
+							"Alignment": "Center",
+							"Title": "Supplier_bid_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/supplier_reply/NavTosupplier_reply_List.action",
+							"Alignment": "Center",
+							"Title": "supplier_reply",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						},
+						{
+							"OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_List.action",
+							"Alignment": "Center",
+							"Title": "Supplier_table",
+							"ButtonType": "Text",
+							"Semantic": "Tint",
+							"_Type": "ButtonTable.Type.Button"
+						}
+					],
+					"_Name": "SectionButtonTable_capoff",
+					"_Type": "Section.Type.ButtonTable"
+				}
+			]
+		}
+	],
+	"_Name": "Main",
+	"_Type": "Page",
+	"Caption": "Main",
+	"PrefersLargeCaption": true,
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "User Menu",
+				"Icon": "sap-icon://customer",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/quickbid/Actions/Application/UserMenuPopover.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

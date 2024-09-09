@@ -1,0 +1,241 @@
+{
+	"Caption": "Supplier_table Detail",
+	"DesignTimeTarget": {
+		"Service": "/quickbid/Services/capoff.service",
+		"EntitySet": "Supplier_table",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_Edit.action",
+				"Position": "Right",
+				"SystemItem": "Edit"
+			},
+			{
+				"OnPress": "/quickbid/Actions/capoff/Supplier_table/Supplier_table_DetailPopover.action",
+				"Position": "Right",
+				"Caption": "More"
+			}
+		]
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{title}",
+						"Subhead": "{doc_id}",
+						"BodyText": "",
+						"Footnote": "{main_invitationId}",
+						"Description": "{invitationId}",
+						"StatusText": "{smvendor_id}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{phone_main}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "doc_id",
+							"Value": "{doc_id}"
+						},
+						{
+							"KeyName": "invitationId",
+							"Value": "{invitationId}"
+						},
+						{
+							"KeyName": "main_invitationId",
+							"Value": "{main_invitationId}"
+						},
+						{
+							"KeyName": "title",
+							"Value": "{title}"
+						},
+						{
+							"KeyName": "smvendor_id",
+							"Value": "{smvendor_id}"
+						},
+						{
+							"KeyName": "phone_main",
+							"Value": "{phone_main}"
+						},
+						{
+							"KeyName": "status",
+							"Value": "{status}"
+						},
+						{
+							"KeyName": "award_status",
+							"Value": "{award_status}"
+						},
+						{
+							"KeyName": "award_msg_status",
+							"Value": "{award_msg_status}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"Header": {
+						"Caption": "supplier_to_sbid",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{title}",
+						"Footnote": "{item_id}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{eventTypeName}",
+						"Subhead": "{doc_id}",
+						"SubstatusText": "{leadBid}",
+						"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/supplier_to_sbid",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "supplier_to_attachment",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": "/quickbid/Services/capoff.service/{@odata.readLink}/content"
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{fileName}",
+						"Footnote": "{mediaType}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{size}",
+						"Subhead": "{doc_id}",
+						"SubstatusText": "{url}",
+						"OnPress": "/quickbid/Actions/capoff/Attachments_table/NavToAttachments_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/supplier_to_attachment",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "sup_questionnaire_rel",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{doc_id}",
+						"Footnote": "{description}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{type}",
+						"Subhead": "{questionnaire_id}",
+						"SubstatusText": "",
+						"OnPress": "/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/sup_questionnaire_rel",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				},
+				{
+					"Header": {
+						"Caption": "sup_questionnaire_relply",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"ObjectCell": {
+						"AccessoryType": "DisclosureIndicator",
+						"Description": "{invitationId}",
+						"AvatarStack": {
+							"Avatars": [
+								{
+									"Image": ""
+								}
+							],
+							"ImageIsCircular": false
+						},
+						"Icons": [],
+						"StatusImage": "",
+						"Title": "{doc_id}",
+						"Footnote": "{user_reply}",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "",
+						"Subhead": "{questionnaire_id}",
+						"SubstatusText": "",
+						"OnPress": "/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_Detail.action"
+					},
+					"EmptySection": {
+						"Caption": "No record found!"
+					},
+					"Target": {
+						"EntitySet": "{@odata.readLink}/sup_questionnaire_relply",
+						"Service": "/quickbid/Services/capoff.service"
+					},
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"DataSubscriptions": [
+				"Supplier_bid_table",
+				"Attachments_table",
+				"Questionnaire_table",
+				"Questionnaire_reply_table"
+			],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Supplier_table_Detail",
+	"PrefersLargeCaption": true
+}

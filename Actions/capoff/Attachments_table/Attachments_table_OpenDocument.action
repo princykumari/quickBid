@@ -1,0 +1,5 @@
+{
+    "_Type": "Action.Type.OpenDocument",
+    "Path": "/quickbid/Services/capoff.service/{@odata.readLink}/content",
+    "MimeType": "image/jpeg"
+}
