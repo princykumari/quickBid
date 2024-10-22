@@ -7,14 +7,9 @@
 	},
 	"CF": {
 		"Target": "https://api.cf.us10-001.hana.ondemand.com",
-		"Organization": "b082e2d5-0741-4f2a-95bc-bc16e37e3c71",
-		"Space": "79ab4ebc-7e80-4bec-9c28-a27f91b337ec",
+		"Organization": "92a7a1e2-0b99-4d6f-85af-cfb513441a2c",
+		"Space": "dc4b17d2-800d-4cb0-8a21-434221287522",
 		"Deploy": {
-			"Description": "",
-			"WebClient": {
-				"Runtime": "production",
-				"URL": "https://mdk-webclient-runtime.cfapps.us10.hana.ondemand.com/runtime/"
-			},
 			"Destination": [
 				{
 					"CF": "capoff",
@@ -25,14 +20,18 @@
 			"Name": "ns.quickbid",
 			"Version": "1.0.0",
 			"AppRouter": "standalone",
+			"WebClient": {
+				"Runtime": "production",
+				"URL": "https://mdk-webclient-runtime.cfapps.us10.hana.ondemand.com/runtime/"
+			},
 			"Auth": true,
-			"URL": "https://2a671639trial-dev-nsquickbid-approuter.cfapps.us10-001.hana.ondemand.com/nsquickbid"
+			"URL": "https://ae9dc776trial-dev-nsquickbid-approuter.cfapps.us10-001.hana.ondemand.com/nsquickbid"
 		}
 	},
 	"MobileService": {
 		"Type": "standard",
-		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/b082e2d5-0741-4f2a-95bc-bc16e37e3c71/space/79ab4ebc-7e80-4bec-9c28-a27f91b337ec",
-		"AppId": "com.myapp",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/92a7a1e2-0b99-4d6f-85af-cfb513441a2c/space/dc4b17d2-800d-4cb0-8a21-434221287522",
+		"AppId": "com.sap.mdk.demo",
 		"Destination": [
 			"com.sap.edm.sampleservice.v4",
 			"com.myapp",

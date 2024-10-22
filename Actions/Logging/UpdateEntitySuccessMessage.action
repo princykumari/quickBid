@@ -1,6 +1,6 @@
 {
 	"_Type": "Action.Type.ToastMessage",
-	"OnSuccess": "/quickbid/Actions/CloseModalPage_Complete.action",
+	"OnSuccess": "/quickbid/Actions/Logging/CloseModalPage_Complete.action",
 	"Message": "Entity updated",
 	"NumberOfLines": 2,
 	"Duration": 2,

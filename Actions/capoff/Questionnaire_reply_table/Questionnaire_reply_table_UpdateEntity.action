@@ -1,20 +1,19 @@
 {
-    "_Type": "Action.Type.ODataService.UpdateEntity",
-    "Target": {
-        "EntitySet": "Questionnaire_reply_table",
-        "Service": "/quickbid/Services/capoff.service",
-        "ReadLink": "{@odata.readLink}"
-    },
-    "Properties": {
-        "doc_id": "#Control:doc_id/#SelectedValue",
-        "questionnaire_id": "#Control:questionnaire_id/#SelectedValue",
-        "invitationId": "#Control:invitationId/#Value",
-        "user_reply": "#Control:user_reply/#Value"
-    },
-    "UpdateLinks": [],
-    "ActionResult": {
-        "_Name": "update"
-    },
-    "OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage.action",
-    "OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action"
+	"_Type": "Action.Type.ODataService.UpdateEntity",
+	"ActionResult": {
+		"_Name": "update"
+	},
+	"OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action",
+	"OnSuccess": "/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action",
+	"Target": {
+		"EntitySet": "Questionnaire_reply_table",
+		"Service": "/quickbid/Services/capoff.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties": {
+		"doc_id": "#Control:doc_id/#SelectedValue",
+		"questionnaire_id": "#Control:questionnaire_id/#SelectedValue",
+		"invitationId": "#Control:invitationId/#Value",
+		"user_reply": "#Control:user_reply/#Value"
+	}
 }

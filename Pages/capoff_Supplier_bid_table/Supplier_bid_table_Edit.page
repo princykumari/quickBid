@@ -215,7 +215,7 @@
 				"SystemItem": "Save",
 				"Position": "Right",
 				"IsIconCircular": false,
-				"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/Supplier_bid_table_UpdateEntity.action"
+				"OnPress": "/quickbid/Rules/Application/savemodi.js"
 			}
 		],
 		"_Name": "ActionBar1"

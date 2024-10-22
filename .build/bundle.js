@@ -153,8 +153,10 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 	let quickbid_actions_genericmessagebox_action = __webpack_require__(/*! ./quickbid/Actions/GenericMessageBox.action */ "./build.definitions/quickbid/Actions/GenericMessageBox.action")
 	let quickbid_actions_genericnavigation_action = __webpack_require__(/*! ./quickbid/Actions/GenericNavigation.action */ "./build.definitions/quickbid/Actions/GenericNavigation.action")
 	let quickbid_actions_generictoastmessage_action = __webpack_require__(/*! ./quickbid/Actions/GenericToastMessage.action */ "./build.definitions/quickbid/Actions/GenericToastMessage.action")
+	let quickbid_actions_logging_closemodalpage_complete_action = __webpack_require__(/*! ./quickbid/Actions/Logging/CloseModalPage_Complete.action */ "./build.definitions/quickbid/Actions/Logging/CloseModalPage_Complete.action")
 	let quickbid_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./quickbid/Actions/Logging/LogUploadFailure.action */ "./build.definitions/quickbid/Actions/Logging/LogUploadFailure.action")
 	let quickbid_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./quickbid/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/quickbid/Actions/Logging/LogUploadSuccessful.action")
+	let quickbid_actions_logging_updateentitysuccessmessage_action = __webpack_require__(/*! ./quickbid/Actions/Logging/UpdateEntitySuccessMessage.action */ "./build.definitions/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action")
 	let quickbid_actions_logging_uploadlog_action = __webpack_require__(/*! ./quickbid/Actions/Logging/UploadLog.action */ "./build.definitions/quickbid/Actions/Logging/UploadLog.action")
 	let quickbid_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./quickbid/Actions/Logging/UploadLogProgress.action */ "./build.definitions/quickbid/Actions/Logging/UploadLogProgress.action")
 	let quickbid_actions_notify_action = __webpack_require__(/*! ./quickbid/Actions/notify.action */ "./build.definitions/quickbid/Actions/notify.action")
@@ -257,8 +259,10 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 	let quickbid_rules_application_filterforattch_js = __webpack_require__(/*! ./quickbid/Rules/Application/filterforattch.js */ "./build.definitions/quickbid/Rules/Application/filterforattch.js")
 	let quickbid_rules_application_getclientsupportversions_js = __webpack_require__(/*! ./quickbid/Rules/Application/GetClientSupportVersions.js */ "./build.definitions/quickbid/Rules/Application/GetClientSupportVersions.js")
 	let quickbid_rules_application_getclientversion_js = __webpack_require__(/*! ./quickbid/Rules/Application/GetClientVersion.js */ "./build.definitions/quickbid/Rules/Application/GetClientVersion.js")
+	let quickbid_rules_application_onretun_js = __webpack_require__(/*! ./quickbid/Rules/Application/onRetun.js */ "./build.definitions/quickbid/Rules/Application/onRetun.js")
 	let quickbid_rules_application_onwillupdate_js = __webpack_require__(/*! ./quickbid/Rules/Application/OnWillUpdate.js */ "./build.definitions/quickbid/Rules/Application/OnWillUpdate.js")
 	let quickbid_rules_application_resetappsettingsandlogout_js = __webpack_require__(/*! ./quickbid/Rules/Application/ResetAppSettingsAndLogout.js */ "./build.definitions/quickbid/Rules/Application/ResetAppSettingsAndLogout.js")
+	let quickbid_rules_application_savemodi_js = __webpack_require__(/*! ./quickbid/Rules/Application/savemodi.js */ "./build.definitions/quickbid/Rules/Application/savemodi.js")
 	let quickbid_rules_approvedrule_js = __webpack_require__(/*! ./quickbid/Rules/ApprovedRule.js */ "./build.definitions/quickbid/Rules/ApprovedRule.js")
 	let quickbid_rules_attachments_table_createentity_js = __webpack_require__(/*! ./quickbid/Rules/Attachments_table_CreateEntity.js */ "./build.definitions/quickbid/Rules/Attachments_table_CreateEntity.js")
 	let quickbid_rules_attepmtrule_js = __webpack_require__(/*! ./quickbid/Rules/attepmtRule.js */ "./build.definitions/quickbid/Rules/attepmtRule.js")
@@ -298,6 +302,7 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 	let quickbid_rules_logging_tracecategories_js = __webpack_require__(/*! ./quickbid/Rules/Logging/TraceCategories.js */ "./build.definitions/quickbid/Rules/Logging/TraceCategories.js")
 	let quickbid_rules_logging_userlogsetting_js = __webpack_require__(/*! ./quickbid/Rules/Logging/UserLogSetting.js */ "./build.definitions/quickbid/Rules/Logging/UserLogSetting.js")
 	let quickbid_rules_loginrule_js = __webpack_require__(/*! ./quickbid/Rules/loginRule.js */ "./build.definitions/quickbid/Rules/loginRule.js")
+	let quickbid_rules_onres_js = __webpack_require__(/*! ./quickbid/Rules/onRes.js */ "./build.definitions/quickbid/Rules/onRes.js")
 	let quickbid_rules_opendocrule_js = __webpack_require__(/*! ./quickbid/Rules/openDocRule.js */ "./build.definitions/quickbid/Rules/openDocRule.js")
 	let quickbid_rules_otprule_js = __webpack_require__(/*! ./quickbid/Rules/otpRule.js */ "./build.definitions/quickbid/Rules/otpRule.js")
 	let quickbid_rules_pendgchck_js = __webpack_require__(/*! ./quickbid/Rules/pendgChck.js */ "./build.definitions/quickbid/Rules/pendgChck.js")
@@ -451,8 +456,10 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 		quickbid_actions_genericmessagebox_action : quickbid_actions_genericmessagebox_action,
 		quickbid_actions_genericnavigation_action : quickbid_actions_genericnavigation_action,
 		quickbid_actions_generictoastmessage_action : quickbid_actions_generictoastmessage_action,
+		quickbid_actions_logging_closemodalpage_complete_action : quickbid_actions_logging_closemodalpage_complete_action,
 		quickbid_actions_logging_loguploadfailure_action : quickbid_actions_logging_loguploadfailure_action,
 		quickbid_actions_logging_loguploadsuccessful_action : quickbid_actions_logging_loguploadsuccessful_action,
+		quickbid_actions_logging_updateentitysuccessmessage_action : quickbid_actions_logging_updateentitysuccessmessage_action,
 		quickbid_actions_logging_uploadlog_action : quickbid_actions_logging_uploadlog_action,
 		quickbid_actions_logging_uploadlogprogress_action : quickbid_actions_logging_uploadlogprogress_action,
 		quickbid_actions_notify_action : quickbid_actions_notify_action,
@@ -555,8 +562,10 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 		quickbid_rules_application_filterforattch_js : quickbid_rules_application_filterforattch_js,
 		quickbid_rules_application_getclientsupportversions_js : quickbid_rules_application_getclientsupportversions_js,
 		quickbid_rules_application_getclientversion_js : quickbid_rules_application_getclientversion_js,
+		quickbid_rules_application_onretun_js : quickbid_rules_application_onretun_js,
 		quickbid_rules_application_onwillupdate_js : quickbid_rules_application_onwillupdate_js,
 		quickbid_rules_application_resetappsettingsandlogout_js : quickbid_rules_application_resetappsettingsandlogout_js,
+		quickbid_rules_application_savemodi_js : quickbid_rules_application_savemodi_js,
 		quickbid_rules_approvedrule_js : quickbid_rules_approvedrule_js,
 		quickbid_rules_attachments_table_createentity_js : quickbid_rules_attachments_table_createentity_js,
 		quickbid_rules_attepmtrule_js : quickbid_rules_attepmtrule_js,
@@ -596,6 +605,7 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 		quickbid_rules_logging_tracecategories_js : quickbid_rules_logging_tracecategories_js,
 		quickbid_rules_logging_userlogsetting_js : quickbid_rules_logging_userlogsetting_js,
 		quickbid_rules_loginrule_js : quickbid_rules_loginrule_js,
+		quickbid_rules_onres_js : quickbid_rules_onres_js,
 		quickbid_rules_opendocrule_js : quickbid_rules_opendocrule_js,
 		quickbid_rules_otprule_js : quickbid_rules_otprule_js,
 		quickbid_rules_pendgchck_js : quickbid_rules_pendgchck_js,
@@ -909,6 +919,92 @@ function filterforattch(clientAPI) {
 
 return `$filter=doc_id eq '${docIdValue}' and invitationId eq '${invita}'`
 }
+
+
+/***/ }),
+
+/***/ "./build.definitions/quickbid/Rules/Application/onRetun.js":
+/*!*****************************************************************!*\
+  !*** ./build.definitions/quickbid/Rules/Application/onRetun.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ onRetun)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+function onRetun(clientAPI) {
+    clientAPI.executeAction({
+        'Name': "/quickbid/Actions/capoff/Service/UploadOffline.action"
+}).then(() => {
+    // alert("done");
+}).catch((error) => {
+    console.error("Error during the UploadOffline action: ", error);
+    // alert(`Error during the UploadOffline action: ${error.message}`);
+    // if (error.message && error.message.includes("Failed to establish a socket connection to the server")) {
+    //     alert("Currently Offline: Any changes you make will be saved locally and synced once you reconnect to the internet.");
+    // } else {
+    //     alert(`Error during the UploadOffline action: ${error.message}`);
+    // }
+});
+}
+
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./build.definitions/quickbid/Rules/Application/savemodi.js":
+/*!******************************************************************!*\
+  !*** ./build.definitions/quickbid/Rules/Application/savemodi.js ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ savemodi)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+
+function savemodi(clientAPI) {
+debugger
+    clientAPI.executeAction({
+        'Name': "/quickbid/Actions/capoff/Supplier_bid_table/Supplier_bid_table_UpdateEntity.action",
+    });
+
+    clientAPI.executeAction({
+        'Name': "/quickbid/Actions/capoff/Service/UploadOffline.action"
+}).then(() => {
+    // alert("All updates are done, and the UploadOffline action has been executed.");
+}).catch((error) => {
+    console.error("Error during the UploadOffline action: ", error);
+    // alert(`Error during the UploadOffline action: ${error.message}`);
+    if (error.message && error.message.includes("Failed to establish a socket connection to the server")) {
+        // alert("Currently Offline: Any changes you make will be saved locally and synced once you reconnect to the internet.");
+    } else {
+        // alert(`Error during the UploadOffline action: ${error.message}`);
+    }
+});
+}
+
+
+
+
+
 
 
 /***/ }),
@@ -2924,6 +3020,43 @@ const requestOption = {
 
 /***/ }),
 
+/***/ "./build.definitions/quickbid/Rules/onRes.js":
+/*!***************************************************!*\
+  !*** ./build.definitions/quickbid/Rules/onRes.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ onRes)
+/* harmony export */ });
+/**
+ * Describe this function...
+ * @param {IClientAPI} clientAPI
+ */
+function onRes(clientAPI) {
+    // alert("trigerred");
+    // setInterval(function() { clientAPI.executeAction("/quickbid/Actions/capoff/Service/UploadOffline.action"); }, 600000);
+    // setInterval();
+    clientAPI.executeAction({
+        'Name': "/quickbid/Actions/capoff/Service/UploadOffline.action"
+}).then(() => {
+    // alert("All updates are done, and the UploadOffline action has been executed.");
+}).catch((error) => {
+    console.error("Error during the UploadOffline action: ", error);
+    // alert(`Error during the UploadOffline action: ${error.message}`);
+    if (error.message && error.message.includes("Failed to establish a socket connection to the server")) {
+        // alert("Currently Offline: Any changes you make will be saved locally and synced once you reconnect to the internet.");
+    } else {
+        // alert(`Error during the UploadOffline action: ${error.message}`);
+    }
+});
+}
+
+
+/***/ }),
+
 /***/ "./build.definitions/quickbid/Rules/openDocRule.js":
 /*!*********************************************************!*\
   !*** ./build.definitions/quickbid/Rules/openDocRule.js ***!
@@ -4607,7 +4740,7 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \*****************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":false,"HeaderSeparator":false,"FooterSeparator":false,"ControlSeparator":true},"_Type":"Section.Type.Image","_Name":"SectionImage0","Visible":true,"Image":"/quickbid/Images/peol_logo (1) (1).png","Width":190,"Height":180,"Alignment":"Center","ContentMode":"ScaleAspectFit"},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":true,"Separator":true,"Caption":"Phone Number","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.Button","_Name":"FormCellButton0","IsVisible":true,"Separator":true,"Title":"Get Otp","Alignment":"Center","ButtonType":"Primary","Semantic":"Tint","ImagePosition":"Leading","Enabled":true,"OnPress":"/quickbid/Rules/otpRule.js"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty1","IsVisible":false,"Separator":false,"Caption":"Enter Otp","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.Button","_Name":"FormCellButton2","IsVisible":false,"Separator":false,"Title":"ResendOtp","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","Enabled":true},{"_Type":"Control.Type.FormCell.Button","_Name":"FormCellButton3","IsVisible":true,"Separator":true,"Title":"Login","Alignment":"Center","ButtonType":"Primary","Semantic":"Tint","ImagePosition":"Leading","Enabled":true,"OnPress":"/quickbid/Rules/loginRule.js"}],"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"Login","Caption":"Quick Bid","PrefersLargeCaption":true,"OnLoaded":"/quickbid/Actions/capoff/Service/InitializeOffline.action","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"Style":"ActionBar","OnPress":"/quickbid/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":false,"HeaderSeparator":false,"FooterSeparator":false,"ControlSeparator":true},"_Type":"Section.Type.Image","_Name":"SectionImage0","Visible":true,"Image":"/quickbid/Images/peol_logo (1) (1).png","Width":190,"Height":180,"Alignment":"Center","ContentMode":"ScaleAspectFit"},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":true,"Separator":true,"Caption":"Phone Number","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.Button","_Name":"FormCellButton0","IsVisible":true,"Separator":true,"Title":"Get Otp","Alignment":"Center","ButtonType":"Primary","Semantic":"Tint","ImagePosition":"Leading","Enabled":true,"OnPress":"/quickbid/Rules/otpRule.js"},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty1","IsVisible":false,"Separator":false,"Caption":"Enter Otp","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.Button","_Name":"FormCellButton2","IsVisible":false,"Separator":false,"Title":"ResendOtp","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","Enabled":true},{"_Type":"Control.Type.FormCell.Button","_Name":"FormCellButton3","IsVisible":true,"Separator":true,"Title":"Login","Alignment":"Center","ButtonType":"Primary","Semantic":"Tint","ImagePosition":"Leading","Enabled":true,"OnPress":"/quickbid/Rules/loginRule.js"}],"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}],"LoadingIndicator":{"Enabled":false}}],"_Type":"Page","_Name":"Login","Caption":"Quick Bid","PrefersLargeCaption":true,"OnLoaded":"/quickbid/Actions/capoff/Service/InitializeOffline.action","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"Style":"ActionBar","OnPress":"/quickbid/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
 
 /***/ }),
 
@@ -4617,7 +4750,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
   \****************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Name":"SectionedTable0","_Type":"Control.Type.SectionedTable","Sections":[{"Header":{"_Name":"SectionHeader_capoff","AccessoryType":"None","UseTopPadding":true,"Caption":"capoff","_Type":"SectionCommon.Type.Header"},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Buttons":[{"OnPress":"/quickbid/Actions/capoff/Attachments_table/NavToAttachments_table_List.action","Alignment":"Center","Title":"Attachments_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Bid_reply/NavToBid_reply_List.action","Alignment":"Center","Title":"Bid_reply","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Dropdown/NavToDropdown_List.action","Alignment":"Center","Title":"Dropdown","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Header_table/NavToHeader_table_List.action","Alignment":"Center","Title":"Header_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Item_table/NavToItem_table_List.action","Alignment":"Center","Title":"Item_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_List.action","Alignment":"Center","Title":"Questionnaire_reply_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_List.action","Alignment":"Center","Title":"Questionnaire_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_List.action","Alignment":"Center","Title":"Supplier_bid_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/supplier_reply/NavTosupplier_reply_List.action","Alignment":"Center","Title":"supplier_reply","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"},{"OnPress":"/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_List.action","Alignment":"Center","Title":"Supplier_table","ButtonType":"Text","Semantic":"Tint","_Type":"ButtonTable.Type.Button"}],"_Name":"SectionButtonTable_capoff","_Type":"Section.Type.ButtonTable"}]}],"_Name":"Main","_Type":"Page","Caption":"Main","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/quickbid/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.ButtonTable","_Name":"SectionButtonTable_capoff","Header":{"_Type":"SectionCommon.Type.Header","_Name":"SectionHeader_capoff","AccessoryType":"None","UseTopPadding":true,"Caption":"capoff"},"Visible":true,"EmptySection":{"FooterVisible":false},"Buttons":[{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton0","Title":"Attachments_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Attachments_table/NavToAttachments_table_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton1","Title":"Bid_reply","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Bid_reply/NavToBid_reply_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton2","Title":"Dropdown","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Dropdown/NavToDropdown_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton3","Title":"Header_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Header_table/NavToHeader_table_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton4","Title":"Item_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Item_table/NavToItem_table_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton5","Title":"Questionnaire_reply_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton6","Title":"Questionnaire_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton7","Title":"Supplier_bid_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton8","Title":"supplier_reply","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/supplier_reply/NavTosupplier_reply_List.action"},{"_Type":"ButtonTable.Type.Button","_Name":"ButtonTableTypeButton9","Title":"Supplier_table","Alignment":"Center","ButtonType":"Text","Semantic":"Tint","ImagePosition":"Leading","FullWidth":false,"Visible":true,"Enabled":true,"OnPress":"/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_List.action"}],"Layout":{"LayoutType":"Vertical","HorizontalAlignment":"Leading"}}],"LoadingIndicator":{"Enabled":false}}],"_Type":"Page","_Name":"Main","Caption":"Main","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"User Menu","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/quickbid/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
 
 /***/ }),
 
@@ -4627,7 +4760,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
   \******************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"_Type":"Control.Type.Tabs","_Name":"Awarded Bids","Items":[{"_Type":"Control.Type.TabItem","Caption":"/quickbid/Rules/countRule.js","PageToOpen":"/quickbid/Pages/capoff_Supplier_table/Supplier_table_List.page","_Name":"TabItem0"},{"_Type":"Control.Type.TabItem","Caption":"/quickbid/Rules/count.js","PageToOpen":"/quickbid/Pages/capoff_Supplier_table/Approved_List.page","_Name":"TabItem1"},{"_Type":"Control.Type.TabItem","Caption":"/quickbid/Rules/awardedCountRule.js","PageToOpen":"/quickbid/Pages/capoff_Supplier_table/Awarded List.page","_Name":"TabItem2"}],"Position":"Top","TabStripType":"Normal","SwipeEnabled":true}],"PullDown":{"OnPulledDown":"/quickbid/Rules/count.js"},"_Type":"Page","_Name":"TabsForBidsSummary","Caption":"Bids Summary","OnReturning":"/quickbid/Actions/capoff/Service/UploadOffline.action","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"Item","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/quickbid/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
+module.exports = {"Controls":[{"_Type":"Control.Type.Tabs","_Name":"Awarded Bids","Items":[{"_Type":"Control.Type.TabItem","Caption":"/quickbid/Rules/countRule.js","PageToOpen":"/quickbid/Pages/capoff_Supplier_table/Supplier_table_List.page","_Name":"TabItem0"},{"_Type":"Control.Type.TabItem","Caption":"/quickbid/Rules/count.js","PageToOpen":"/quickbid/Pages/capoff_Supplier_table/Approved_List.page","_Name":"TabItem1"},{"_Type":"Control.Type.TabItem","Caption":"/quickbid/Rules/awardedCountRule.js","PageToOpen":"/quickbid/Pages/capoff_Supplier_table/Awarded List.page","_Name":"TabItem2"}],"Position":"Top","TabStripType":"Normal","SwipeEnabled":true}],"PullDown":{"OnPulledDown":"/quickbid/Rules/count.js"},"_Type":"Page","_Name":"TabsForBidsSummary","Caption":"Bids Summary","OnLoaded":"/quickbid/Rules/Application/onRetun.js","OnReturning":"/quickbid/Rules/Application/onRetun.js","ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"Item","Icon":"sap-icon://customer","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/quickbid/Actions/Application/UserMenuPopover.action"}],"_Name":"ActionBar1"}}
 
 /***/ }),
 
@@ -5017,7 +5150,7 @@ module.exports = {"Caption":"Supplier_bid_table Detail","DesignTimeTarget":{"Ser
   \*************************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"DesignTimeTarget":{"Service":"/quickbid/Services/capoff.service","EntitySet":"Supplier_bid_table","QueryOptions":""},"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Controls":[{"Value":"{doc_id}","_Type":"Control.Type.FormCell.ListPicker","_Name":"doc_id","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Doc Id","IsSelectedSectionEnabled":true,"IsPickerDismissedOnSelection":true,"AllowDefaultValueIfOneItem":false,"IsEditable":false,"PickerItems":{"DisplayValue":"{doc_id}","ReturnValue":"{doc_id}","Target":{"EntitySet":"Header_table","Service":"/quickbid/Services/capoff.service"}}},{"Value":"{invitationId}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"invitationId","IsVisible":true,"Separator":true,"Caption":"Supplier Mail Id","Enabled":false,"IsEditable":false},{"Value":"{item_id}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"item_id","IsVisible":true,"Separator":true,"Caption":"Material ID","Enabled":false,"IsEditable":false},{"Value":"{title}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"title","IsVisible":true,"Separator":true,"Caption":"Description","Enabled":false,"IsEditable":false},{"Value":"{item_name}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"item_name","IsVisible":true,"Separator":true,"Caption":"Material Name","Enabled":false,"IsEditable":false},{"Value":"{supp_quot_quantity}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"supp_quot_quantity","IsVisible":false,"Separator":true,"Caption":"supp_quot_quantity","KeyboardType":"Number","Enabled":true,"IsEditable":true},{"Value":"{quantity}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"quantity","IsVisible":true,"Separator":true,"Caption":"Quantity","Enabled":true,"IsEditable":true},{"Value":"{status}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"status","IsVisible":true,"Separator":true,"Caption":"Status","Enabled":true,"IsEditable":false},{"Value":"{eventTypeName}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty2","IsVisible":true,"Separator":true,"Caption":"Event Type","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":false},{"Value":"{leadBid}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty1","IsVisible":"/quickbid/Rules/leadVsisD.js","Separator":true,"Caption":"Lead Bid","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":false},{"Value":"{price}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"price","IsVisible":true,"Separator":true,"Caption":"Base Price","KeyboardType":"Default","Enabled":true,"IsEditable":false},{"Value":"{supp_quot_price}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"supp_quot_price","IsVisible":true,"Separator":true,"Caption":"Price*","KeyboardType":"Number","Enabled":true,"IsEditable":true},{"Value":"{ariba_status}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"ariba_status","IsVisible":false,"Separator":true,"Caption":"ariba_status","Enabled":true,"IsEditable":true},{"Value":"{whatsapp_status}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":false,"Separator":true,"Caption":"whatsapp_status","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true}],"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}],"LoadingIndicator":{"Enabled":true,"Text":"Loading, please wait..."}}],"_Type":"Page","_Name":"Supplier_bid_table_Edit","Caption":"Bid Update","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"OnPress":"/quickbid/Actions/CloseModalPage_Cancel.action"},{"_Name":"ActionBarItem1","Caption":"","SystemItem":"Save","Position":"Right","IsIconCircular":false,"OnPress":"/quickbid/Actions/capoff/Supplier_bid_table/Supplier_bid_table_UpdateEntity.action"}],"_Name":"ActionBar1"}}
+module.exports = {"DesignTimeTarget":{"Service":"/quickbid/Services/capoff.service","EntitySet":"Supplier_bid_table","QueryOptions":""},"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Controls":[{"Value":"{doc_id}","_Type":"Control.Type.FormCell.ListPicker","_Name":"doc_id","IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Doc Id","IsSelectedSectionEnabled":true,"IsPickerDismissedOnSelection":true,"AllowDefaultValueIfOneItem":false,"IsEditable":false,"PickerItems":{"DisplayValue":"{doc_id}","ReturnValue":"{doc_id}","Target":{"EntitySet":"Header_table","Service":"/quickbid/Services/capoff.service"}}},{"Value":"{invitationId}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"invitationId","IsVisible":true,"Separator":true,"Caption":"Supplier Mail Id","Enabled":false,"IsEditable":false},{"Value":"{item_id}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"item_id","IsVisible":true,"Separator":true,"Caption":"Material ID","Enabled":false,"IsEditable":false},{"Value":"{title}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"title","IsVisible":true,"Separator":true,"Caption":"Description","Enabled":false,"IsEditable":false},{"Value":"{item_name}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"item_name","IsVisible":true,"Separator":true,"Caption":"Material Name","Enabled":false,"IsEditable":false},{"Value":"{supp_quot_quantity}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"supp_quot_quantity","IsVisible":false,"Separator":true,"Caption":"supp_quot_quantity","KeyboardType":"Number","Enabled":true,"IsEditable":true},{"Value":"{quantity}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"quantity","IsVisible":true,"Separator":true,"Caption":"Quantity","Enabled":true,"IsEditable":true},{"Value":"{status}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"status","IsVisible":true,"Separator":true,"Caption":"Status","Enabled":true,"IsEditable":false},{"Value":"{eventTypeName}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty2","IsVisible":true,"Separator":true,"Caption":"Event Type","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":false},{"Value":"{leadBid}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty1","IsVisible":"/quickbid/Rules/leadVsisD.js","Separator":true,"Caption":"Lead Bid","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":false},{"Value":"{price}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"price","IsVisible":true,"Separator":true,"Caption":"Base Price","KeyboardType":"Default","Enabled":true,"IsEditable":false},{"Value":"{supp_quot_price}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"supp_quot_price","IsVisible":true,"Separator":true,"Caption":"Price*","KeyboardType":"Number","Enabled":true,"IsEditable":true},{"Value":"{ariba_status}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"ariba_status","IsVisible":false,"Separator":true,"Caption":"ariba_status","Enabled":true,"IsEditable":true},{"Value":"{whatsapp_status}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FormCellSimpleProperty0","IsVisible":false,"Separator":true,"Caption":"whatsapp_status","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true}],"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}],"LoadingIndicator":{"Enabled":true,"Text":"Loading, please wait..."}}],"_Type":"Page","_Name":"Supplier_bid_table_Edit","Caption":"Bid Update","PrefersLargeCaption":true,"ActionBar":{"Items":[{"_Name":"ActionBarItem0","Caption":"","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"OnPress":"/quickbid/Actions/CloseModalPage_Cancel.action"},{"_Name":"ActionBarItem1","Caption":"","SystemItem":"Save","Position":"Right","IsIconCircular":false,"OnPress":"/quickbid/Rules/Application/savemodi.js"}],"_Name":"ActionBar1"}}
 
 /***/ }),
 
@@ -5387,7 +5520,7 @@ module.exports = {"DismissModal":"Action.Type.ClosePage.Canceled","CancelPending
   \***************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"DismissModal":"Action.Type.ClosePage.Completed","CancelPendingActions":false,"_Type":"Action.Type.ClosePage"}
+module.exports = {"_Type":"Action.Type.ClosePage","DismissModal":"Action.Type.ClosePage.Completed","CancelPendingActions":false}
 
 /***/ }),
 
@@ -5521,6 +5654,16 @@ module.exports = {"_Type":"Action.Type.ToastMessage","ActionResult":{"_Name":"Ge
 
 /***/ }),
 
+/***/ "./build.definitions/quickbid/Actions/Logging/CloseModalPage_Complete.action":
+/*!***********************************************************************************!*\
+  !*** ./build.definitions/quickbid/Actions/Logging/CloseModalPage_Complete.action ***!
+  \***********************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ClosePage","CancelPendingActions":false}
+
+/***/ }),
+
 /***/ "./build.definitions/quickbid/Actions/Logging/LogUploadFailure.action":
 /*!****************************************************************************!*\
   !*** ./build.definitions/quickbid/Actions/Logging/LogUploadFailure.action ***!
@@ -5538,6 +5681,16 @@ module.exports = {"Message":"Uploading log file failed with error: {#ActionResul
 /***/ ((module) => {
 
 module.exports = {"Animated":true,"Duration":3,"IsIconHidden":false,"MaxNumberOfLines":1,"Message":"Log File Uploaded","_Type":"Action.Type.ToastMessage"}
+
+/***/ }),
+
+/***/ "./build.definitions/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action":
+/*!**************************************************************************************!*\
+  !*** ./build.definitions/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action ***!
+  \**************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ToastMessage","OnSuccess":"/quickbid/Actions/Logging/CloseModalPage_Complete.action","Message":"Entity updated","NumberOfLines":2,"Duration":2,"IsIconHidden":false,"Animated":true}
 
 /***/ }),
 
@@ -5587,7 +5740,7 @@ module.exports = {"_Type":"Action.Type.BannerMessage","Message":"/quickbid/Rules
   \******************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Animated":true,"Duration":2,"Message":"Entity updated","Icon":"","IsIconHidden":false,"NumberOfLines":2,"OnSuccess":"/quickbid/Actions/CloseModalPage_Complete.action","_Type":"Action.Type.ToastMessage"}
+module.exports = {"_Type":"Action.Type.ToastMessage","OnSuccess":"/quickbid/Actions/CloseModalPage_Complete.action","Message":"Entity updated","NumberOfLines":2,"Duration":2,"IsIconHidden":false,"Animated":true}
 
 /***/ }),
 
@@ -6187,7 +6340,7 @@ module.exports = {"Target":{"EntitySet":"Questionnaire_reply_table","Service":"/
   \***************************************************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","Target":{"EntitySet":"Questionnaire_reply_table","Service":"/quickbid/Services/capoff.service","ReadLink":"{@odata.readLink}"},"Properties":{"doc_id":"#Control:doc_id/#SelectedValue","questionnaire_id":"#Control:questionnaire_id/#SelectedValue","invitationId":"#Control:invitationId/#Value","user_reply":"#Control:user_reply/#Value"},"UpdateLinks":[],"ActionResult":{"_Name":"update"},"OnSuccess":"/quickbid/Actions/UpdateEntitySuccessMessage.action","OnFailure":"/quickbid/Actions/UpdateEntityFailureMessage.action"}
+module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","ActionResult":{"_Name":"update"},"OnFailure":"/quickbid/Actions/UpdateEntityFailureMessage.action","OnSuccess":"/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action","Target":{"EntitySet":"Questionnaire_reply_table","Service":"/quickbid/Services/capoff.service","ReadLink":"{@odata.readLink}"},"Properties":{"doc_id":"#Control:doc_id/#SelectedValue","questionnaire_id":"#Control:questionnaire_id/#SelectedValue","invitationId":"#Control:invitationId/#Value","user_reply":"#Control:user_reply/#Value"}}
 
 /***/ }),
 
@@ -6852,15 +7005,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _nativescript_core_ui_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @nativescript/core/ui/button */ "webpack/sharing/consume/default/@nativescript/core/ui/button");
 /* harmony import */ var _nativescript_core_ui_button__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_button__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _nativescript_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @nativescript/core */ "webpack/sharing/consume/default/@nativescript/core");
-/* harmony import */ var _nativescript_core__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @nativescript/core/ui/dialogs */ "webpack/sharing/consume/default/@nativescript/core/ui/dialogs");
-/* harmony import */ var _nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @nativescript/core/ui/gestures */ "webpack/sharing/consume/default/@nativescript/core/ui/gestures");
-/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @nativescript/core/ui/text-view */ "webpack/sharing/consume/default/@nativescript/core/ui/text-view");
-/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_8__);
-
+/* harmony import */ var _nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @nativescript/core/ui/dialogs */ "webpack/sharing/consume/default/@nativescript/core/ui/dialogs");
+/* harmony import */ var _nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @nativescript/core/ui/gestures */ "webpack/sharing/consume/default/@nativescript/core/ui/gestures");
+/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @nativescript/core/ui/text-view */ "webpack/sharing/consume/default/@nativescript/core/ui/text-view");
+/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -6872,16 +7022,37 @@ __webpack_require__.r(__webpack_exports__);
 class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MODULE_0__.IControl {
     constructor() {
         super();
+        this._dataLoaded = false;
         this._descriptionLabels = [];
         this._replyFields = [];
         this._questionnaireIdFields = [];
         this._itemTypes = [];
     }
+    initialize(props) {
+        var _a;
+        super.initialize(props);
+        const clientAPI = (_a = props.context) === null || _a === void 0 ? void 0 : _a.clientAPI;
+        this._clientAPI = clientAPI;
+        if (clientAPI) {
+            this.fetchAndPopulateData(clientAPI);
+        }
+        else {
+            console.error('clientAPI is not available');
+        }
+    }
     view() {
+        var _a;
         if (!this._mainStackLayout) {
             this._mainStackLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
             this._mainStackLayout.orientation = 'vertical';
-            this.fetchAndPopulateData();
+            var clientAPI = (_a = this.page()) === null || _a === void 0 ? void 0 : _a.clientAPI;
+            if (clientAPI) {
+                this.fetchAndPopulateData(clientAPI);
+                this._dataLoaded = true;
+            }
+            else {
+                console.error('clientAPI is not available');
+            }
             let bottomLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
             bottomLayout.height = 100;
             bottomLayout.width = '100%';
@@ -6913,11 +7084,10 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
         return button;
     }
     updateServiceWithData() {
-        let result;
         let updateCount = 0;
         const totalUpdates = this._questionnaireIdFields.length;
-        for (let i = 0; i < this._questionnaireIdFields.length; i++) {
-            const questionnaireId = this._questionnaireIdFields[i].text;
+        const updatePromises = this._questionnaireIdFields.map((questionnaireIdField, i) => {
+            const questionnaireId = questionnaireIdField.text;
             let userReply;
             const replyControl = this._replyFields[i];
             if (this._itemTypes[i] === 'RQASTRINGListOfChoices') {
@@ -6927,40 +7097,64 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
                 userReply = this._doc;
             }
             else if (this._itemTypes[i] === 'RQASTRING') {
-                userReply = replyControl.text;
+                userReply = this._userReplies;
             }
-            const updateServiceUrl = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Questionnaire_reply_table(doc_id='${this._docId}',invitationId='${this._invitationId}',questionnaire_id='${questionnaireId}')`;
-            const dataPayload = { user_reply: userReply };
-            _nativescript_core__WEBPACK_IMPORTED_MODULE_5__.Http.request({
-                url: updateServiceUrl,
-                method: 'PATCH',
-                headers: { 'Content-Type': 'application/json' },
-                content: JSON.stringify(dataPayload)
-            }).then(response => {
-                result = response.statusCode;
-                updateCount++;
-                if (updateCount === totalUpdates && result === 200) {
-                    (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6__.alert)(`Data updated`);
-                }
-            }).catch(error => {
-                (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6__.alert)(`There was an error updating the service for questionnaire ID: ${questionnaireId}. Error: ${error.message}`);
+            if (userReply != null) {
+                const readLink = `/Questionnaire_reply_table(doc_id='${this._docId}',invitationId='${this._invitationId}',questionnaire_id='${questionnaireId}')`;
+                return this._clientAPI.executeAction({
+                    'Name': "/quickbid/Actions/capoff/Questionnaire_reply_table/Questionnaire_reply_table_UpdateEntity.action",
+                    'Properties': {
+                        'Target': {
+                            'EntitySet': 'Questionnaire_reply_table',
+                            'ReadLink': readLink
+                        },
+                        'Properties': {
+                            'doc_id': this._docId,
+                            'invitationId': this._invitationId,
+                            'questionnaire_id': questionnaireId,
+                            'user_reply': userReply
+                        }
+                    }
+                }).then(() => {
+                    updateCount++;
+                }).catch((error) => {
+                    console.error(`Error updating questionnaire ID ${questionnaireId}: `, error);
+                    (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`Error updating questionnaire ID ${questionnaireId}: ${error.message}`);
+                });
+            }
+            return Promise.resolve();
+        });
+        Promise.all(updatePromises).then(() => {
+            return this._clientAPI.executeAction({
+                'Name': "/quickbid/Actions/capoff/Service/UploadOffline.action"
             });
-        }
+        }).then(() => {
+        }).catch((error) => {
+            console.error("Error during the UploadOffline action: ", error);
+            if (error.message && error.message.includes("Failed to establish a socket connection to the server")) {
+            }
+            else {
+                (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`Error during the UploadOffline action: ${error.message}`);
+            }
+        });
     }
-    fetchAndPopulateData() {
-        this._docId = this.context.binding.doc_id;
-        this._invitationId = this.context.binding.invitationId;
-        const serviceUrl1 = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Questionnaire_table?$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
-        const serviceUrl2 = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Questionnaire_reply_table?$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
-        Promise.all([_nativescript_core__WEBPACK_IMPORTED_MODULE_5__.Http.getJSON(serviceUrl1), _nativescript_core__WEBPACK_IMPORTED_MODULE_5__.Http.getJSON(serviceUrl2)])
-            .then(([response1, response2]) => {
-            if (response1 && response1.value && Array.isArray(response1.value) &&
-                response2 && response2.value && Array.isArray(response2.value)) {
-                const repliesMap = response2.value.reduce((acc, reply) => {
+    async fetchAndPopulateData(clientAPI) {
+        try {
+            this._docId = this.context.binding.doc_id;
+            this._invitationId = this.context.binding.invitationId;
+            const servicePath = "/quickbid/Services/capoff.service";
+            const entitySet1 = "Questionnaire_table";
+            const entitySet2 = "Questionnaire_reply_table";
+            const queryOption1 = `$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
+            const queryOption2 = `$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
+            const result1 = await clientAPI.read(servicePath, entitySet1, [], queryOption1);
+            const result2 = await clientAPI.read(servicePath, entitySet2, [], queryOption2);
+            if (result1 && result1.length && result2 && result2.length) {
+                const repliesMap = result2.reduce((acc, reply) => {
                     acc[reply.questionnaire_id] = reply.user_reply;
                     return acc;
                 }, {});
-                response1.value.forEach((item, index) => {
+                result1.forEach((item, index) => {
                     if (item && item.type !== "RQAATTACH") {
                         const qusIdField = new _nativescript_core_ui_text_field__WEBPACK_IMPORTED_MODULE_1__.TextField();
                         qusIdField.hint = 'Questionnaire ID';
@@ -6976,20 +7170,20 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
                         descriptionLabel.text = item.description || 'No description available';
                         this._mainStackLayout.addChild(descriptionLabel);
                         this._descriptionLabels.push(descriptionLabel);
-                        this._itemTypes[index] = item.type;
+                        this._itemTypes.push(item.type);
                         if (item.type === 'RQASTRINGListOfChoices' || item.type === 'RQABOOLEAN') {
                             const radioGroupLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
                             if (item.type === 'RQASTRINGListOfChoices') {
-                                this.populateRadioOptions(item, radioGroupLayout, index, repliesMap);
+                                this.populateRadioOptions(item, radioGroupLayout, index, repliesMap, clientAPI);
                             }
                             else if (item.type === 'RQABOOLEAN') {
                                 this.populateBooleanOptions(item, radioGroupLayout, index, repliesMap);
                             }
                             this._mainStackLayout.addChild(radioGroupLayout);
-                            this._replyFields[index] = radioGroupLayout;
+                            this._replyFields.push(radioGroupLayout);
                         }
                         else if (item.type === "RQASTRING") {
-                            const replyField = new _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_8__.TextView();
+                            const replyField = new _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7__.TextView();
                             replyField.hint = `User Reply ${index + 1}`;
                             replyField.text = repliesMap[item.questionnaire_id] || '';
                             replyField.backgroundColor = 'white';
@@ -7002,19 +7196,12 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
                             replyField.horizontalAlignment = 'left';
                             replyField.marginLeft = 7;
                             replyField.marginRight = 7;
-                            replyField.style.cssText = `
-                                    display: flex;
-                                    box-sizing: border-box;
-                                    flex-direction: column;
-                                    width: 100%;
-                                    overflow: auto;
-                                    word-wrap: break-word;
-                                    white-space: pre-wrap;
-                                `;
                             this._mainStackLayout.addChild(replyField);
-                            this._replyFields[index] = replyField;
+                            this._replyFields.push(replyField);
                             replyField.on('textChange', (args) => {
                                 const textView = args.object;
+                                this._userReplies = textView.text;
+                                this._replyFields.push(textView.text);
                                 if (textView.ios) {
                                     const fixedWidth = textView.ios.frame.size.width;
                                     const newSize = textView.ios.sizeThatFits(CGSizeMake(fixedWidth, Number.MAX_SAFE_INTEGER));
@@ -7032,35 +7219,43 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
                                 });
                             }
                         }
-                        descriptionLabel.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_7__.GestureTypes.tap, () => {
-                            const replyField = this._replyFields[index];
-                            if (replyField.visibility === 'collapse') {
-                                replyField.visibility = 'visible';
-                                descriptionLabel.text = `${item.description} ( Ans )`;
+                        descriptionLabel.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__.GestureTypes.tap, () => {
+                            try {
+                                const replyField = this._replyFields[index];
+                                if (replyField.visibility === 'collapse') {
+                                    replyField.visibility = 'visible';
+                                    descriptionLabel.text = `${item.description} ( Ans )`;
+                                }
+                                else {
+                                    replyField.visibility = 'collapse';
+                                    descriptionLabel.text = `${item.description} ( ans )`;
+                                }
                             }
-                            else {
-                                replyField.visibility = 'collapse';
-                                descriptionLabel.text = `${item.description} ( ans )`;
+                            catch (error) {
+                                (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`${error.message}`);
                             }
                         });
                     }
                 });
             }
             else {
-                throw new Error('Invalid response format');
+                throw new Error('No data found or invalid response');
             }
-        })
-            .catch(error => {
+        }
+        catch (error) {
             console.error('Error fetching data from service:', error);
-            (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6__.alert)(`Failed to fetch data: ${error.message}`);
-        });
+            (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`Failed to fetch data: ${error.message}`);
+        }
     }
-    populateRadioOptions(item, radioGroupLayout, index, repliesMap) {
-        const radioOptionsUrl = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Dropdown?$filter=questionnaire_id eq '${item.questionnaire_id}'`;
-        _nativescript_core__WEBPACK_IMPORTED_MODULE_5__.Http.getJSON(radioOptionsUrl).then(response => {
-            if (response && response.value && Array.isArray(response.value)) {
-                response.value.forEach((option, optionIndex) => {
-                    const radioButtonLayout = this.createRadioButton1(option.dropdown_value, index, 'groupName', repliesMap[item.questionnaire_id] === option.dropdown_value);
+    populateRadioOptions(item, radioGroupLayout, index, repliesMap, clientAPI) {
+        const servicePath = "/quickbid/Services/capoff.service";
+        const entitySet = "Dropdown";
+        const queryOptions = `$filter=questionnaire_id eq '${item.questionnaire_id}'`;
+        clientAPI.read(servicePath, entitySet, [], queryOptions).then(response => {
+            if (response && response.length) {
+                response.forEach((option, optionIndex) => {
+                    const isSelected = repliesMap[item.questionnaire_id] === option.dropdown_value;
+                    const radioButtonLayout = this.createRadioButton1(option.dropdown_value, index, 'groupName', isSelected);
                     radioGroupLayout.addChild(radioButtonLayout);
                     if (index === 0 && optionIndex === 0) {
                         const textBox = new _nativescript_core_ui_text_field__WEBPACK_IMPORTED_MODULE_1__.TextField();
@@ -7082,7 +7277,7 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
             }
         }).catch(error => {
             console.error('Error fetching radio options:', error);
-            (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_6__.alert)('Failed to fetch radio options.');
+            (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(console.error);
         });
     }
     populateBooleanOptions(item, radioGroupLayout, index, repliesMap) {
@@ -7112,7 +7307,7 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
         radioLabel.fontSize = 16;
         radioButtonLayout.addChild(radioIndicator);
         radioButtonLayout.addChild(radioLabel);
-        radioButtonLayout.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_7__.GestureTypes.tap, () => {
+        radioButtonLayout.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__.GestureTypes.tap, () => {
             const parentLayout = radioButtonLayout.parent;
             parentLayout.eachChild((child) => {
                 if (child instanceof _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout) {
@@ -7149,7 +7344,7 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
         radioLabel.fontSize = 16;
         radioButtonLayout.addChild(radioIndicator);
         radioButtonLayout.addChild(radioLabel);
-        radioButtonLayout.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_7__.GestureTypes.tap, () => {
+        radioButtonLayout.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__.GestureTypes.tap, () => {
             const parentLayout = radioButtonLayout.parent;
             parentLayout.eachChild((child) => {
                 if (child instanceof _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout) {
@@ -7189,16 +7384,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @nativescript/core/ui/label */ "webpack/sharing/consume/default/@nativescript/core/ui/label");
 /* harmony import */ var _nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _nativescript_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @nativescript/core */ "webpack/sharing/consume/default/@nativescript/core");
-/* harmony import */ var _nativescript_core__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @nativescript/core/ui/dialogs */ "webpack/sharing/consume/default/@nativescript/core/ui/dialogs");
-/* harmony import */ var _nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @nativescript/core/ui/gestures */ "webpack/sharing/consume/default/@nativescript/core/ui/gestures");
-/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @nativescript/core/ui/text-view */ "webpack/sharing/consume/default/@nativescript/core/ui/text-view");
-/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7__);
-
-
+/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @nativescript/core/ui/gestures */ "webpack/sharing/consume/default/@nativescript/core/ui/gestures");
+/* harmony import */ var _nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @nativescript/core/ui/text-view */ "webpack/sharing/consume/default/@nativescript/core/ui/text-view");
+/* harmony import */ var _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
@@ -7208,74 +7397,67 @@ __webpack_require__.r(__webpack_exports__);
 class questionnaireAprv extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MODULE_0__.IControl {
     constructor() {
         super();
+        this._dataLoaded = false;
+        this._userReplies = {};
         this._descriptionLabels = [];
         this._replyFields = [];
         this._questionnaireIdFields = [];
         this._itemTypes = [];
     }
+    initialize(props) {
+        var _a;
+        super.initialize(props);
+        const clientAPI = (_a = props.context) === null || _a === void 0 ? void 0 : _a.clientAPI;
+        this._clientAPI = clientAPI;
+        if (clientAPI) {
+            this.fetchAndPopulateData(clientAPI);
+        }
+        else {
+            console.error('clientAPI is not available');
+        }
+    }
     view() {
+        var _a;
         if (!this._mainStackLayout) {
             this._mainStackLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
             this._mainStackLayout.orientation = 'vertical';
-            this.fetchAndPopulateData();
-            return this._mainStackLayout;
+            const clientAPI = (_a = this.page()) === null || _a === void 0 ? void 0 : _a.clientAPI;
+            if (clientAPI) {
+                this.fetchAndPopulateData(clientAPI);
+                this._dataLoaded = true;
+            }
+            else {
+                console.error('clientAPI is not available');
+            }
+            let pageLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
+            pageLayout.addChild(this._mainStackLayout);
+            return pageLayout;
         }
         return this._mainStackLayout;
     }
-    updateServiceWithData() {
-        let result;
-        let updateCount = 0;
-        const totalUpdates = this._questionnaireIdFields.length;
-        for (let i = 0; i < this._questionnaireIdFields.length; i++) {
-            const questionnaireId = this._questionnaireIdFields[i].text;
-            let userReply;
-            const replyControl = this._replyFields[i];
-            if (this._itemTypes[i] === 'RQASTRINGListOfChoices') {
-                userReply = this._payment;
-            }
-            else if (this._itemTypes[i] === 'RQABOOLEAN') {
-                userReply = this._doc;
-            }
-            else if (this._itemTypes[i] === 'RQASTRING') {
-                userReply = replyControl.text;
-            }
-            const updateServiceUrl = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Questionnaire_reply_table(doc_id='${this._docId}',invitationId='${this._invitationId}',questionnaire_id='${questionnaireId}')`;
-            const dataPayload = { user_reply: userReply };
-            _nativescript_core__WEBPACK_IMPORTED_MODULE_4__.Http.request({
-                url: updateServiceUrl,
-                method: 'PATCH',
-                headers: { 'Content-Type': 'application/json' },
-                content: JSON.stringify(dataPayload)
-            }).then(response => {
-                result = response.statusCode;
-                updateCount++;
-                if (updateCount === totalUpdates && result === 200) {
-                    (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)('Data updated');
-                }
-            }).catch(error => {
-                (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`There was an error updating the service for questionnaire ID: ${questionnaireId}. Error: ${error.message}`);
-            });
-        }
-    }
-    fetchAndPopulateData() {
-        this._docId = this.context.binding.doc_id;
-        this._invitationId = this.context.binding.invitationId;
-        const serviceUrl1 = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Questionnaire_table?$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
-        const serviceUrl2 = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Questionnaire_reply_table?$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
-        Promise.all([_nativescript_core__WEBPACK_IMPORTED_MODULE_4__.Http.getJSON(serviceUrl1), _nativescript_core__WEBPACK_IMPORTED_MODULE_4__.Http.getJSON(serviceUrl2)])
-            .then(([response1, response2]) => {
-            if (response1 && response1.value && Array.isArray(response1.value) &&
-                response2 && response2.value && Array.isArray(response2.value)) {
-                const repliesMap = response2.value.reduce((acc, reply) => {
+    async fetchAndPopulateData(clientAPI) {
+        try {
+            this._docId = this.context.binding.doc_id;
+            this._invitationId = this.context.binding.invitationId;
+            const servicePath = "/quickbid/Services/capoff.service";
+            const entitySet1 = "Questionnaire_table";
+            const entitySet2 = "Questionnaire_reply_table";
+            const queryOption1 = `$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
+            const queryOption2 = `$filter=doc_id eq '${this._docId}' and invitationId eq '${this._invitationId}'`;
+            const result1 = await clientAPI.read(servicePath, entitySet1, [], queryOption1);
+            const result2 = await clientAPI.read(servicePath, entitySet2, [], queryOption2);
+            if (result1 && result1.length && result2 && result2.length) {
+                const repliesMap = result2.reduce((acc, reply) => {
                     acc[reply.questionnaire_id] = reply.user_reply;
                     return acc;
                 }, {});
-                response1.value.forEach((item, index) => {
+                result1.forEach((item, index) => {
                     if (item && item.type !== "RQAATTACH") {
                         const qusIdField = new _nativescript_core_ui_text_field__WEBPACK_IMPORTED_MODULE_1__.TextField();
                         qusIdField.hint = 'Questionnaire ID';
                         qusIdField.text = item.questionnaire_id || 'No questionnaire ID';
                         qusIdField.visibility = 'collapsed';
+                        qusIdField.isEnabled = false;
                         this._mainStackLayout.addChild(qusIdField);
                         this._questionnaireIdFields.push(qusIdField);
                         const descriptionLabel = new _nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3__.Label();
@@ -7286,25 +7468,24 @@ class questionnaireAprv extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MOD
                         descriptionLabel.text = item.description || 'No description available';
                         this._mainStackLayout.addChild(descriptionLabel);
                         this._descriptionLabels.push(descriptionLabel);
-                        this._itemTypes[index] = item.type;
+                        this._itemTypes.push(item.type);
                         if (item.type === 'RQASTRINGListOfChoices' || item.type === 'RQABOOLEAN') {
                             const radioGroupLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
                             if (item.type === 'RQASTRINGListOfChoices') {
-                                this.populateRadioOptions(item, radioGroupLayout, index, repliesMap);
+                                this.populateRadioOptions(item, radioGroupLayout, index, repliesMap, clientAPI);
                             }
                             else if (item.type === 'RQABOOLEAN') {
                                 this.populateBooleanOptions(item, radioGroupLayout, index, repliesMap);
                             }
                             this._mainStackLayout.addChild(radioGroupLayout);
-                            this._replyFields[index] = radioGroupLayout;
+                            this._replyFields.push(radioGroupLayout);
                         }
                         else if (item.type === "RQASTRING") {
-                            const replyField = new _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_7__.TextView();
+                            const replyField = new _nativescript_core_ui_text_view__WEBPACK_IMPORTED_MODULE_5__.TextView();
                             replyField.hint = `User Reply ${index + 1}`;
                             replyField.text = repliesMap[item.questionnaire_id] || '';
                             replyField.backgroundColor = 'white';
                             replyField.color = '#000000';
-                            replyField.editable = false;
                             replyField.borderRadius = 5;
                             replyField.borderWidth = 1;
                             replyField.borderColor = '#000000';
@@ -7313,78 +7494,47 @@ class questionnaireAprv extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MOD
                             replyField.horizontalAlignment = 'left';
                             replyField.marginLeft = 7;
                             replyField.marginRight = 7;
-                            replyField.style.cssText = `
-                                    display: flex;
-                                    box-sizing: border-box;
-                                    flex-direction: column;
-                                    width: 100%;
-                                    overflow: auto;
-                                    word-wrap: break-word;
-                                    white-space: pre-wrap;
-                                `;
+                            replyField.isEditable = false;
                             this._mainStackLayout.addChild(replyField);
-                            this._replyFields[index] = replyField;
-                            replyField.on('textChange', (args) => {
-                                const textView = args.object;
-                                if (textView.ios) {
-                                    const fixedWidth = textView.ios.frame.size.width;
-                                    const newSize = textView.ios.sizeThatFits(CGSizeMake(fixedWidth, Number.MAX_SAFE_INTEGER));
-                                    textView.height = newSize.height + 10;
-                                }
-                                else if (textView.android) {
-                                    textView.height = 'auto';
-                                    textView.requestLayout();
-                                }
-                            });
-                            if (replyField.android) {
-                                replyField.on('loaded', () => {
-                                    replyField.android.setMinLines(1);
-                                    replyField.android.setMaxLines(5);
-                                });
-                            }
+                            this._replyFields.push(replyField);
                         }
-                        descriptionLabel.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__.GestureTypes.tap, () => {
+                        descriptionLabel.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_4__.GestureTypes.tap, () => {
                             const replyField = this._replyFields[index];
-                            if (replyField.visibility === 'collapse') {
-                                replyField.visibility = 'visible';
-                                descriptionLabel.text = `${item.description} ( Ans )`;
+                            if (replyField && 'visibility' in replyField) {
+                                if (replyField.visibility === 'collapse') {
+                                    replyField.visibility = 'visible';
+                                    descriptionLabel.text = `${item.description} ( Ans )`;
+                                }
+                                else {
+                                    replyField.visibility = 'collapse';
+                                    descriptionLabel.text = `${item.description} ( ans )`;
+                                }
                             }
                             else {
-                                replyField.visibility = 'collapse';
-                                descriptionLabel.text = `${item.description} ( ans )`;
+                                console.error(`replyField does not support visibility toggle at index ${index}`);
                             }
                         });
                     }
                 });
             }
             else {
-                throw new Error('Invalid response format');
+                throw new Error('No data found or invalid response');
             }
-        })
-            .catch(error => {
+        }
+        catch (error) {
             console.error('Error fetching data from service:', error);
-            (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`Failed to fetch data: ${error.message}`);
-        });
+        }
     }
-    populateRadioOptions(item, radioGroupLayout, index, repliesMap) {
-        const radioOptionsUrl = `https://fa16f51btrial-dev-quick-bid-mobile-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/whatsapp/Dropdown?$filter=questionnaire_id eq '${item.questionnaire_id}'`;
-        _nativescript_core__WEBPACK_IMPORTED_MODULE_4__.Http.getJSON(radioOptionsUrl).then(response => {
-            if (response && response.value && Array.isArray(response.value)) {
-                response.value.forEach((option, optionIndex) => {
-                    const radioButtonLayout = this.createRadioButton1(option.dropdown_value, index, 'groupName', repliesMap[item.questionnaire_id] === option.dropdown_value);
+    populateRadioOptions(item, radioGroupLayout, index, repliesMap, clientAPI) {
+        const servicePath = "/quickbid/Services/capoff.service";
+        const entitySet = "Dropdown";
+        const queryOptions = `$filter=questionnaire_id eq '${item.questionnaire_id}'`;
+        clientAPI.read(servicePath, entitySet, [], queryOptions).then(response => {
+            if (response && response.length) {
+                response.forEach((option, optionIndex) => {
+                    const isSelected = repliesMap[item.questionnaire_id] === option.dropdown_value;
+                    const radioButtonLayout = this.createDisabledRadioButton(option.dropdown_value, isSelected);
                     radioGroupLayout.addChild(radioButtonLayout);
-                    if (index === 0 && optionIndex === 0) {
-                        const textBox = new _nativescript_core_ui_text_field__WEBPACK_IMPORTED_MODULE_1__.TextField();
-                        textBox.hint = `Enter text for ${option.dropdown_value}`;
-                        textBox.editable = false;
-                        textBox.borderRadius = 5;
-                        textBox.borderWidth = 1;
-                        textBox.borderColor = 'black';
-                        textBox.height = 40;
-                        textBox.marginTop = 5;
-                        textBox.paddingLeft = 5;
-                        radioGroupLayout.addChild(textBox);
-                    }
                 });
                 radioGroupLayout.visibility = 'visible';
                 this._replyFields[index] = radioGroupLayout;
@@ -7394,16 +7544,15 @@ class questionnaireAprv extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MOD
             }
         }).catch(error => {
             console.error('Error fetching radio options:', error);
-            (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)('Failed to fetch radio options.');
         });
     }
     populateBooleanOptions(item, radioGroupLayout, index, repliesMap) {
-        const yesRadioButton = this.createRadioButton('Yes', index, 'boolean', repliesMap[item.questionnaire_id] === 'Yes');
-        const noRadioButton = this.createRadioButton('No', index, 'boolean', repliesMap[item.questionnaire_id] === 'No');
+        const yesRadioButton = this.createDisabledRadioButton('Yes', repliesMap[item.questionnaire_id] === 'Yes');
+        const noRadioButton = this.createDisabledRadioButton('No', repliesMap[item.questionnaire_id] === 'No');
         radioGroupLayout.addChild(yesRadioButton);
         radioGroupLayout.addChild(noRadioButton);
     }
-    createRadioButton(optionText, index, groupName, isSelected) {
+    createDisabledRadioButton(optionText, isSelected) {
         const radioButtonLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
         radioButtonLayout.orientation = 'horizontal';
         radioButtonLayout.verticalAlignment = 'middle';
@@ -7424,59 +7573,6 @@ class questionnaireAprv extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MOD
         radioLabel.fontSize = 16;
         radioButtonLayout.addChild(radioIndicator);
         radioButtonLayout.addChild(radioLabel);
-        radioButtonLayout.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__.GestureTypes.tap, () => {
-            const parentLayout = radioButtonLayout.parent;
-            parentLayout.eachChild((child) => {
-                if (child instanceof _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout) {
-                    const indicator = child.getChildAt(0);
-                    indicator.borderColor = 'black';
-                    indicator.backgroundColor = 'white';
-                }
-                return true;
-            });
-            radioIndicator.borderColor = '#51abf1';
-            radioIndicator.backgroundColor = '#51abf1';
-            this._doc = optionText;
-        });
-        radioButtonLayout.isEnabled = false;
-        return radioButtonLayout;
-    }
-    createRadioButton1(optionText, index, groupName, isSelected) {
-        const radioButtonLayout = new _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout();
-        radioButtonLayout.orientation = 'horizontal';
-        radioButtonLayout.verticalAlignment = 'middle';
-        radioButtonLayout.padding = 1;
-        radioButtonLayout.marginBottom = 7;
-        radioButtonLayout.width = '100%';
-        const radioIndicator = new _nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3__.Label();
-        radioIndicator.text = '';
-        radioIndicator.width = 15;
-        radioIndicator.height = 15;
-        radioIndicator.borderRadius = 10;
-        radioIndicator.borderWidth = 1;
-        radioIndicator.borderColor = isSelected ? '#51abf1' : 'black';
-        radioIndicator.backgroundColor = isSelected ? '#51abf1' : 'white';
-        radioIndicator.marginRight = 10;
-        const radioLabel = new _nativescript_core_ui_label__WEBPACK_IMPORTED_MODULE_3__.Label();
-        radioLabel.text = optionText;
-        radioLabel.fontSize = 16;
-        radioButtonLayout.addChild(radioIndicator);
-        radioButtonLayout.addChild(radioLabel);
-        radioButtonLayout.on(_nativescript_core_ui_gestures__WEBPACK_IMPORTED_MODULE_6__.GestureTypes.tap, () => {
-            const parentLayout = radioButtonLayout.parent;
-            parentLayout.eachChild((child) => {
-                if (child instanceof _nativescript_core_ui_layouts_stack_layout__WEBPACK_IMPORTED_MODULE_2__.StackLayout) {
-                    const indicator = child.getChildAt(0);
-                    indicator.borderColor = 'black';
-                    indicator.backgroundColor = 'white';
-                }
-                return true;
-            });
-            radioIndicator.borderColor = '#51abf1';
-            radioIndicator.backgroundColor = '#51abf1';
-            this._payment = optionText;
-        });
-        radioButtonLayout.isEnabled = false;
         return radioButtonLayout;
     }
 }
@@ -7841,13 +7937,12 @@ module.exports = JSON.parse('{"compilerOptions":{"module":"esnext","target":"es2
 /******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/text-field": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/text-field", [0])),
 /******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/layouts/stack-layout": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/layouts/stack-layout", [0])),
 /******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/label": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/label", [0])),
-/******/ 			"webpack/sharing/consume/default/@nativescript/core": () => (loadSingletonVersionCheck("default", "@nativescript/core", [0])),
-/******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/dialogs": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/dialogs", [0])),
 /******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/gestures": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/gestures", [0])),
 /******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/text-view": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/text-view", [0])),
-/******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/button": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/button", [0]))
+/******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/button": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/button", [0])),
+/******/ 			"webpack/sharing/consume/default/@nativescript/core/ui/dialogs": () => (loadSingletonVersionCheck("default", "@nativescript/core/ui/dialogs", [0]))
 /******/ 		};
-/******/ 		var initialConsumes = ["webpack/sharing/consume/default/mdk-core/controls/IControl","webpack/sharing/consume/default/@nativescript/core/ui/text-field","webpack/sharing/consume/default/@nativescript/core/ui/layouts/stack-layout","webpack/sharing/consume/default/@nativescript/core/ui/label","webpack/sharing/consume/default/@nativescript/core","webpack/sharing/consume/default/@nativescript/core/ui/dialogs","webpack/sharing/consume/default/@nativescript/core/ui/gestures","webpack/sharing/consume/default/@nativescript/core/ui/text-view","webpack/sharing/consume/default/@nativescript/core/ui/button"];
+/******/ 		var initialConsumes = ["webpack/sharing/consume/default/mdk-core/controls/IControl","webpack/sharing/consume/default/@nativescript/core/ui/text-field","webpack/sharing/consume/default/@nativescript/core/ui/layouts/stack-layout","webpack/sharing/consume/default/@nativescript/core/ui/label","webpack/sharing/consume/default/@nativescript/core/ui/gestures","webpack/sharing/consume/default/@nativescript/core/ui/text-view","webpack/sharing/consume/default/@nativescript/core/ui/button","webpack/sharing/consume/default/@nativescript/core/ui/dialogs"];
 /******/ 		initialConsumes.forEach((id) => {
 /******/ 			__webpack_require__.m[id] = (module) => {
 /******/ 				// Handle case when module is used sync

@@ -34,7 +34,8 @@
 	"_Type": "Page",
 	"_Name": "TabsForBidsSummary",
 	"Caption": "Bids Summary",
-	"OnReturning": "/quickbid/Actions/capoff/Service/UploadOffline.action",
+	"OnLoaded": "/quickbid/Rules/Application/onRetun.js",
+	"OnReturning": "/quickbid/Rules/Application/onRetun.js",
 	"ActionBar": {
 		"Items": [
 			{

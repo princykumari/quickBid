@@ -1,2 +1,2 @@
 Pass:
-	Generated bundle file /home/user/projects/quickbid/.build/quickbid/.build/uploadBundle.zip
+	Generated bundle file /home/user/projects/quickBid/.build/quickbid/.build/uploadBundle.zip

@@ -5,17 +5,10 @@
 				"ShowAllFilters": false,
 				"_Type": "Control.Type.FilterFeedbackBar"
 			},
-			"_Name": "SectionedTable0",
 			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
 			"Sections": [
 				{
-					"Header": {
-						"_Name": "SectionHeader_capoff",
-						"AccessoryType": "None",
-						"UseTopPadding": true,
-						"Caption": "capoff",
-						"_Type": "SectionCommon.Type.Header"
-					},
 					"Separators": {
 						"TopSectionSeparator": false,
 						"BottomSectionSeparator": true,
@@ -23,96 +16,164 @@
 						"FooterSeparator": true,
 						"ControlSeparator": true
 					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable_capoff",
+					"Header": {
+						"_Type": "SectionCommon.Type.Header",
+						"_Name": "SectionHeader_capoff",
+						"AccessoryType": "None",
+						"UseTopPadding": true,
+						"Caption": "capoff"
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
 					"Buttons": [
 						{
-							"OnPress": "/quickbid/Actions/capoff/Attachments_table/NavToAttachments_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton0",
 							"Title": "Attachments_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Attachments_table/NavToAttachments_table_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Bid_reply/NavToBid_reply_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton1",
 							"Title": "Bid_reply",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Bid_reply/NavToBid_reply_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Dropdown/NavToDropdown_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton2",
 							"Title": "Dropdown",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Dropdown/NavToDropdown_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Header_table/NavToHeader_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton3",
 							"Title": "Header_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Header_table/NavToHeader_table_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Item_table/NavToItem_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton4",
 							"Title": "Item_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Item_table/NavToItem_table_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton5",
 							"Title": "Questionnaire_reply_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Questionnaire_reply_table/NavToQuestionnaire_reply_table_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton6",
 							"Title": "Questionnaire_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Questionnaire_table/NavToQuestionnaire_table_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton7",
 							"Title": "Supplier_bid_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Supplier_bid_table/NavToSupplier_bid_table_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/supplier_reply/NavTosupplier_reply_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton8",
 							"Title": "supplier_reply",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/supplier_reply/NavTosupplier_reply_List.action"
 						},
 						{
-							"OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_List.action",
-							"Alignment": "Center",
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "ButtonTableTypeButton9",
 							"Title": "Supplier_table",
+							"Alignment": "Center",
 							"ButtonType": "Text",
 							"Semantic": "Tint",
-							"_Type": "ButtonTable.Type.Button"
+							"ImagePosition": "Leading",
+							"FullWidth": false,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/quickbid/Actions/capoff/Supplier_table/NavToSupplier_table_List.action"
 						}
 					],
-					"_Name": "SectionButtonTable_capoff",
-					"_Type": "Section.Type.ButtonTable"
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Leading"
+					}
 				}
-			]
+			],
+			"LoadingIndicator": {
+				"Enabled": false
+			}
 		}
 	],
-	"_Name": "Main",
 	"_Type": "Page",
+	"_Name": "Main",
 	"Caption": "Main",
 	"PrefersLargeCaption": true,
 	"ActionBar": {

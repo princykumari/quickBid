@@ -101,7 +101,10 @@
 					"_Type": "Section.Type.FormCell",
 					"_Name": "SectionFormCell0"
 				}
-			]
+			],
+			"LoadingIndicator": {
+				"Enabled": false
+			}
 		}
 	],
 	"_Type": "Page",
