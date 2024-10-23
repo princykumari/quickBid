@@ -4,7 +4,7 @@
 		"_Name": "update"
 	},
 	"OnFailure": "/quickbid/Actions/UpdateEntityFailureMessage.action",
-	"OnSuccess": "/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action",
+	"OnSuccess": "/quickbid/Actions/UpdateEntitySuccessMessage copy.action",
 	"Target": {
 		"EntitySet": "Questionnaire_reply_table",
 		"Service": "/quickbid/Services/capoff.service",

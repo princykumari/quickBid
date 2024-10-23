@@ -153,10 +153,8 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 	let quickbid_actions_genericmessagebox_action = __webpack_require__(/*! ./quickbid/Actions/GenericMessageBox.action */ "./build.definitions/quickbid/Actions/GenericMessageBox.action")
 	let quickbid_actions_genericnavigation_action = __webpack_require__(/*! ./quickbid/Actions/GenericNavigation.action */ "./build.definitions/quickbid/Actions/GenericNavigation.action")
 	let quickbid_actions_generictoastmessage_action = __webpack_require__(/*! ./quickbid/Actions/GenericToastMessage.action */ "./build.definitions/quickbid/Actions/GenericToastMessage.action")
-	let quickbid_actions_logging_closemodalpage_complete_action = __webpack_require__(/*! ./quickbid/Actions/Logging/CloseModalPage_Complete.action */ "./build.definitions/quickbid/Actions/Logging/CloseModalPage_Complete.action")
 	let quickbid_actions_logging_loguploadfailure_action = __webpack_require__(/*! ./quickbid/Actions/Logging/LogUploadFailure.action */ "./build.definitions/quickbid/Actions/Logging/LogUploadFailure.action")
 	let quickbid_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./quickbid/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/quickbid/Actions/Logging/LogUploadSuccessful.action")
-	let quickbid_actions_logging_updateentitysuccessmessage_action = __webpack_require__(/*! ./quickbid/Actions/Logging/UpdateEntitySuccessMessage.action */ "./build.definitions/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action")
 	let quickbid_actions_logging_uploadlog_action = __webpack_require__(/*! ./quickbid/Actions/Logging/UploadLog.action */ "./build.definitions/quickbid/Actions/Logging/UploadLog.action")
 	let quickbid_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./quickbid/Actions/Logging/UploadLogProgress.action */ "./build.definitions/quickbid/Actions/Logging/UploadLogProgress.action")
 	let quickbid_actions_notify_action = __webpack_require__(/*! ./quickbid/Actions/notify.action */ "./build.definitions/quickbid/Actions/notify.action")
@@ -171,6 +169,7 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 	let quickbid_actions_totabs_action = __webpack_require__(/*! ./quickbid/Actions/toTabs.action */ "./build.definitions/quickbid/Actions/toTabs.action")
 	let quickbid_actions_updateentityfailuremessage_action = __webpack_require__(/*! ./quickbid/Actions/UpdateEntityFailureMessage.action */ "./build.definitions/quickbid/Actions/UpdateEntityFailureMessage.action")
 	let quickbid_actions_updateentitysuccessmessage_action = __webpack_require__(/*! ./quickbid/Actions/UpdateEntitySuccessMessage.action */ "./build.definitions/quickbid/Actions/UpdateEntitySuccessMessage.action")
+	let quickbid_actions_updateentitysuccessmessage_copy_action = __webpack_require__(/*! ./quickbid/Actions/UpdateEntitySuccessMessage copy.action */ "./build.definitions/quickbid/Actions/UpdateEntitySuccessMessage copy.action")
 	let quickbid_actions_uploadstreamfailuremessage_action = __webpack_require__(/*! ./quickbid/Actions/UploadStreamFailureMessage.action */ "./build.definitions/quickbid/Actions/UploadStreamFailureMessage.action")
 	let quickbid_actions_uploadstreamsuccessmessage_action = __webpack_require__(/*! ./quickbid/Actions/UploadStreamSuccessMessage.action */ "./build.definitions/quickbid/Actions/UploadStreamSuccessMessage.action")
 	let quickbid_extensions_questionnaireaprv_controls_questionnaireaprv_ts = __webpack_require__(/*! ./quickbid/Extensions/questionnaireAprv/controls/questionnaireAprv.ts */ "./build.definitions/quickbid/Extensions/questionnaireAprv/controls/questionnaireAprv.ts")
@@ -456,10 +455,8 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 		quickbid_actions_genericmessagebox_action : quickbid_actions_genericmessagebox_action,
 		quickbid_actions_genericnavigation_action : quickbid_actions_genericnavigation_action,
 		quickbid_actions_generictoastmessage_action : quickbid_actions_generictoastmessage_action,
-		quickbid_actions_logging_closemodalpage_complete_action : quickbid_actions_logging_closemodalpage_complete_action,
 		quickbid_actions_logging_loguploadfailure_action : quickbid_actions_logging_loguploadfailure_action,
 		quickbid_actions_logging_loguploadsuccessful_action : quickbid_actions_logging_loguploadsuccessful_action,
-		quickbid_actions_logging_updateentitysuccessmessage_action : quickbid_actions_logging_updateentitysuccessmessage_action,
 		quickbid_actions_logging_uploadlog_action : quickbid_actions_logging_uploadlog_action,
 		quickbid_actions_logging_uploadlogprogress_action : quickbid_actions_logging_uploadlogprogress_action,
 		quickbid_actions_notify_action : quickbid_actions_notify_action,
@@ -474,6 +471,7 @@ let application_app = __webpack_require__(/*! ./Application.app */ "./build.defi
 		quickbid_actions_totabs_action : quickbid_actions_totabs_action,
 		quickbid_actions_updateentityfailuremessage_action : quickbid_actions_updateentityfailuremessage_action,
 		quickbid_actions_updateentitysuccessmessage_action : quickbid_actions_updateentitysuccessmessage_action,
+		quickbid_actions_updateentitysuccessmessage_copy_action : quickbid_actions_updateentitysuccessmessage_copy_action,
 		quickbid_actions_uploadstreamfailuremessage_action : quickbid_actions_uploadstreamfailuremessage_action,
 		quickbid_actions_uploadstreamsuccessmessage_action : quickbid_actions_uploadstreamsuccessmessage_action,
 		quickbid_extensions_questionnaireaprv_controls_questionnaireaprv_ts : quickbid_extensions_questionnaireaprv_controls_questionnaireaprv_ts,
@@ -5654,16 +5652,6 @@ module.exports = {"_Type":"Action.Type.ToastMessage","ActionResult":{"_Name":"Ge
 
 /***/ }),
 
-/***/ "./build.definitions/quickbid/Actions/Logging/CloseModalPage_Complete.action":
-/*!***********************************************************************************!*\
-  !*** ./build.definitions/quickbid/Actions/Logging/CloseModalPage_Complete.action ***!
-  \***********************************************************************************/
-/***/ ((module) => {
-
-module.exports = {"_Type":"Action.Type.ClosePage","CancelPendingActions":false}
-
-/***/ }),
-
 /***/ "./build.definitions/quickbid/Actions/Logging/LogUploadFailure.action":
 /*!****************************************************************************!*\
   !*** ./build.definitions/quickbid/Actions/Logging/LogUploadFailure.action ***!
@@ -5681,16 +5669,6 @@ module.exports = {"Message":"Uploading log file failed with error: {#ActionResul
 /***/ ((module) => {
 
 module.exports = {"Animated":true,"Duration":3,"IsIconHidden":false,"MaxNumberOfLines":1,"Message":"Log File Uploaded","_Type":"Action.Type.ToastMessage"}
-
-/***/ }),
-
-/***/ "./build.definitions/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action":
-/*!**************************************************************************************!*\
-  !*** ./build.definitions/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action ***!
-  \**************************************************************************************/
-/***/ ((module) => {
-
-module.exports = {"_Type":"Action.Type.ToastMessage","OnSuccess":"/quickbid/Actions/Logging/CloseModalPage_Complete.action","Message":"Entity updated","NumberOfLines":2,"Duration":2,"IsIconHidden":false,"Animated":true}
 
 /***/ }),
 
@@ -5731,6 +5709,16 @@ module.exports = {"_Type":"Action.Type.OpenDocument","ActionResult":{"_Name":"Op
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.BannerMessage","Message":"/quickbid/Rules/errorRule.js","Duration":7,"Animated":true}
+
+/***/ }),
+
+/***/ "./build.definitions/quickbid/Actions/UpdateEntitySuccessMessage copy.action":
+/*!***********************************************************************************!*\
+  !*** ./build.definitions/quickbid/Actions/UpdateEntitySuccessMessage copy.action ***!
+  \***********************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ToastMessage","Message":"Entity updated","NumberOfLines":2,"Duration":2,"IsIconHidden":false,"Animated":true}
 
 /***/ }),
 
@@ -6340,7 +6328,7 @@ module.exports = {"Target":{"EntitySet":"Questionnaire_reply_table","Service":"/
   \***************************************************************************************************************************/
 /***/ ((module) => {
 
-module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","ActionResult":{"_Name":"update"},"OnFailure":"/quickbid/Actions/UpdateEntityFailureMessage.action","OnSuccess":"/quickbid/Actions/Logging/UpdateEntitySuccessMessage.action","Target":{"EntitySet":"Questionnaire_reply_table","Service":"/quickbid/Services/capoff.service","ReadLink":"{@odata.readLink}"},"Properties":{"doc_id":"#Control:doc_id/#SelectedValue","questionnaire_id":"#Control:questionnaire_id/#SelectedValue","invitationId":"#Control:invitationId/#Value","user_reply":"#Control:user_reply/#Value"}}
+module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","ActionResult":{"_Name":"update"},"OnFailure":"/quickbid/Actions/UpdateEntityFailureMessage.action","OnSuccess":"/quickbid/Actions/UpdateEntitySuccessMessage copy.action","Target":{"EntitySet":"Questionnaire_reply_table","Service":"/quickbid/Services/capoff.service","ReadLink":"{@odata.readLink}"},"Properties":{"doc_id":"#Control:doc_id/#SelectedValue","questionnaire_id":"#Control:questionnaire_id/#SelectedValue","invitationId":"#Control:invitationId/#Value","user_reply":"#Control:user_reply/#Value"}}
 
 /***/ }),
 
@@ -7119,7 +7107,6 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
                     updateCount++;
                 }).catch((error) => {
                     console.error(`Error updating questionnaire ID ${questionnaireId}: `, error);
-                    (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`Error updating questionnaire ID ${questionnaireId}: ${error.message}`);
                 });
             }
             return Promise.resolve();
@@ -7134,7 +7121,6 @@ class QuestionnaireClass extends mdk_core_controls_IControl__WEBPACK_IMPORTED_MO
             if (error.message && error.message.includes("Failed to establish a socket connection to the server")) {
             }
             else {
-                (0,_nativescript_core_ui_dialogs__WEBPACK_IMPORTED_MODULE_5__.alert)(`Error during the UploadOffline action: ${error.message}`);
             }
         });
     }

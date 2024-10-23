@@ -2254,7 +2254,7 @@ export class QuestionnaireClass extends IControl {
                     updateCount++;
                 }).catch((error) => {
                     console.error(`Error updating questionnaire ID ${questionnaireId}: `, error);
-                    alert(`Error updating questionnaire ID ${questionnaireId}: ${error.message}`);
+                    // alert(`Error updating questionnaire ID ${questionnaireId}: ${error.message}`);
                 });
             }
     
@@ -2276,7 +2276,7 @@ export class QuestionnaireClass extends IControl {
             if (error.message && error.message.includes("Failed to establish a socket connection to the server")) {
                 // alert("Currently Offline: Any changes you make will be saved locally and synced once you reconnect to the internet.");
             } else {
-                alert(`Error during the UploadOffline action: ${error.message}`);
+                // alert(`Error during the UploadOffline action: ${error.message}`);
             }
         });
     }
